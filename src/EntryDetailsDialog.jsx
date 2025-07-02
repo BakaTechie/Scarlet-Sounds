@@ -174,12 +174,6 @@ function Meta({meta}) {
 		meta &&
 		<>
 			<div className='details-dialog-list'>
-				<ListItem
-					icon={<MdCategory/>}
-					title="Category"
-				>
-					{meta.type}
-				</ListItem>
 				{
 					meta.translatedName &&
 					<ListItem

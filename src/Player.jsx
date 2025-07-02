@@ -7,11 +7,11 @@ import YouTube from 'react-youtube';
 import { QueueContext } from './contexts/QueueContext.jsx';
 import classNames from 'classnames';
 import mirroredIds from './data/mirrored.json'
-
-const enableMirror = true;
+import { usePlayerSettings } from './contexts/PlayerSettingsContext.jsx';
 
 export function VideoPlayer() {
 	const queueManager = useContext(QueueContext);
+	const { useMirror } = usePlayerSettings();
 
 	let videoType = 'none';
 	if (queueManager?.currentSong?.youtubeID) {
@@ -20,8 +20,7 @@ export function VideoPlayer() {
 		videoType = 'url';
 	}
 
-	if (mirroredIds.includes(queueManager?.currentSong?.youtubeID) && enableMirror) {
-		queueManager.currentSong.mirrored = true
+	if (mirroredIds.includes(queueManager?.currentSong?.youtubeID) && useMirror) {
 		videoType = 'url';
 		queueManager.currentSong.videoURL = `//bakatechie.129846.xyz/scarlet-sounds-files/${queueManager?.currentSong?.youtubeID}.webm`
 	}

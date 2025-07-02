@@ -3,6 +3,9 @@
 	width: fit-content;
 	gap: 0;
 	.segmentedButton {
+		white-space: nowrap;
+		height: 40px; /* 确保统一高度 */
+		line-height: 1; /* 避免文字撑高 */
 		flex: 1;
 		flex-shrink: 0;
 		border-radius: 0;
@@ -60,7 +63,7 @@
 
 		$icon-size: 1.25em;
 		$icon-label-spacing: 0.2em;
-		
+
 		.icon {
 			font-size: $icon-size;
 			width: 0;

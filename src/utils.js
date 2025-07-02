@@ -58,14 +58,9 @@ export function applyNewMdTokens(theme, dark = false) {
 
 
 import songsRaw from './data/songs.json'
-import shortsRaw from './data/shorts.json'
 
 
 const songs = songsRaw.map((song) => {
-	if (song.type === 'Piano') {
-		song.type = 'Standalone';
-		song.isPiano = true;
-	}
 	song.length = song.length.split(':').map((value) => parseInt(value)).reduce((acc, time) => (60 * acc) + time);
 	song.hash = md5(song.name + song.length + song.artist + song.singer).slice(0, 8);
 	song.releaseDate = new Date(song.releaseDate);
@@ -75,14 +70,7 @@ const songs = songsRaw.map((song) => {
 								.replace('/', '');
 	}
 	return song;
-}).concat(shortsRaw.map((short) => {
-	short.length = short.length.split(':').map((value) => parseInt(value)).reduce((acc, time) => (60 * acc) + time);
-	short.hash = md5(short.name + short.length).slice(0, 8);
-	if (typeof(short.releaseDate) === 'number' && short.releaseDate < 10000000000) short.releaseDate *= 1000;
-	short.releaseDate = new Date(short.releaseDate);
-	short.videoURL = short.fileName;
-	return short;
-})).map((song) => {
+}).map((song) => {
 	if (song.hasLyrics) song.hasLyrics = song.hasLyrics.toLowerCase() === 'yes' ? true : false;
 	if (song.isMix) song.isMix = song.isMix.toLowerCase() === 'yes' ? true : false;
 	if (song.isRearrange) song.isRearrange = song.isRearrange.toLowerCase() === 'yes' ? true : false;

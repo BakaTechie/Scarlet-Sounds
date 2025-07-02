@@ -1,21 +1,39 @@
-import { useEffect, useState, useReducer, useRef, useContext, useLayoutEffect } from 'react';
+import { useEffect, useState, useRef, useContext, useLayoutEffect } from 'react';
 import { Flipper, Flipped } from 'react-flip-toolkit'
-import { getSongsData, formatLength, formatDate, fixAssetUrl } from './utils.js'
-import Icon from './components/Icon.jsx'
+import { getSongsData, formatLength, formatDate } from './utils.js'
 import SegmentedButtons from './components/SegmentedButtons.jsx'
 import Card from './components/Card.jsx';
 import Tag from './components/Tag.jsx';
 import IconButton from './components/IconButton.jsx';
 import Menu from './components/Menu.jsx';
 import MenuItem, {MenuDivider} from './components/MenuItem.jsx';
-import Checkbox from './components/Checkbox.jsx';
 import NowPlayingIndicatorIcon from './components/NowPlayingIndicatorIcon.jsx';
-import { MdDesignServices, MdMic, MdPlayCircleOutline, MdSort, MdSchedule, MdCalendarMonth, MdSortByAlpha, MdSwapVert, MdOpenInNew, MdPiano, MdPianoOff, MdOutlineInfo, MdGridView, MdViewList, MdPlayArrow, MdAlbum } from 'react-icons/md';
+import {
+	MdDesignServices,
+	MdMic,
+	MdPlayCircleOutline,
+	MdSort,
+	MdSchedule,
+	MdCalendarMonth,
+	MdSortByAlpha,
+	MdSwapVert,
+	MdOpenInNew,
+	MdPiano,
+	MdPianoOff,
+	MdOutlineInfo,
+	MdGridView,
+	MdViewList,
+	MdPlayArrow,
+	MdAlbum,
+	MdDns
+} from 'react-icons/md';
 import { QueueContext } from './contexts/QueueContext.jsx';
 import classNames from 'classnames';
 import './SongListSection.scss';
 import useStateStorage from './hooks/useStateStorage.js';
 import LazyImg from './components/LazyImg.jsx';
+import artistList from './data/artists.json';
+import { usePlayerSettings } from './contexts/PlayerSettingsContext.jsx';
 
 import base64 from 'base-64';
 import utf8 from 'utf8';
@@ -25,15 +43,16 @@ const songs = getSongsData();
 export function SongListSection(props) {
 	const queueManager = useContext(QueueContext);
 
-	const [selectedTypes, setSelectedTypes] = useStateStorage(['standalone', 'collab'], 'song-type-filter');
+	const [selectedTypes, setSelectedTypes] = useStateStorage(artistList, 'song-type-filter');
 	const [listStyle, setListStyle] = useStateStorage('grid', 'song-list-style');
 	const [sortCriteria, setSortCriteria] = useStateStorage('date', 'song-sort-criteria');
 	const [sortDirection, setSortDirection] = useStateStorage('asc', 'song-sort-direction');
 	const [hideInstrumentals, setHideInstrumentals] = useStateStorage(false, 'song-hide-instrumentals');
 	const [showExtraInfo, setShowExtraInfo] = useStateStorage(false, 'song-show-extra-info');
+	const { useMirror, setUseMirror } = usePlayerSettings();
 
 	const filteredSongs = songs
-		.filter((song) => selectedTypes.includes(song.type.toLowerCase()))
+		.filter((song) => selectedTypes.includes(song.artist.toLowerCase()))
 		.filter((song) => !(hideInstrumentals && !song.hasLyrics))
 		.sort((a, b) => {
 			return (() => {
@@ -70,11 +89,11 @@ export function SongListSection(props) {
 				<div className="list-section-header">
 					<SegmentedButtons
 						className="song-type-filter"
-						buttons={[
-							{label: 'Standalone', value: 'standalone', selected: selectedTypes.includes('standalone')},
-							{label: 'Collab', value: 'collab', selected: selectedTypes.includes('collab')},
-							{label: 'Short', value: 'short', selected: selectedTypes.includes('short')},
-						]}
+						buttons={artistList.map(artist => ({
+							label: artist,
+							value: artist,
+							selected: selectedTypes.includes(artist),
+						}))}
 						multiple={true}
 						setSelected={setSelectedTypes}
 					/>
@@ -104,10 +123,12 @@ export function SongListSection(props) {
 							sortDirection={sortDirection}
 							hideInstrumentals={hideInstrumentals}
 							showExtraInfo={showExtraInfo}
+							useMirror={useMirror}
 							setSortCriteria={setSortCriteria}
 							setSortDirection={setSortDirection}
 							setHideInstrumentals={setHideInstrumentals}
 							setShowExtraInfo={setShowExtraInfo}
+							setUseMirror={setUseMirror}
 						/>
 					</div>
 				</div>
@@ -157,10 +178,12 @@ export function SongListSection(props) {
 				sortDirection={sortDirection}
 				hideInstrumentals={hideInstrumentals}
 				showExtraInfo={showExtraInfo}
+				useMirror={useMirror}
 				setSortCriteria={setSortCriteria}
 				setSortDirection={setSortDirection}
 				setHideInstrumentals={setHideInstrumentals}
 				setShowExtraInfo={setShowExtraInfo}
+				setUseMirror={setUseMirror}
 
 				forMobile={true}
 			/>
@@ -265,6 +288,16 @@ function SongFilter(props) {
 				</MenuItem>
 				<MenuDivider/>
 				<MenuItem
+					icon={<MdDns/>}
+					checkbox
+					onChange={(e) => {
+						props.setUseMirror(!props.useMirror);
+					}}
+					checked={props.useMirror}
+				>
+					Mirror Mode
+				</MenuItem>
+				<MenuItem
 					icon={<MdOutlineInfo/>}
 					checkbox
 					onChange={(e) => {
@@ -337,7 +370,6 @@ function Song(props) {
 					}
 				</div>
 				<div className="song-metas">
-					<Tag className="song-type">{props.song.type}</Tag>
 					{
 						props.song.album &&
 						<Tag className="song-album"><MdAlbum/>{props.song.album}</Tag>

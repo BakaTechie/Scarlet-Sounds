@@ -1,9 +1,9 @@
 import React, { useEffect, useLayoutEffect, useState, useRef } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import useRefState from './hooks/useRefState.js'
 import useRefStateStorage from './hooks/useRefStateStorage.js'
 import useShuffleDeque from './hooks/useShuffleDeque.js'
+import { PlayerSettingsProvider } from './contexts/PlayerSettingsContext.jsx';
 import './index.scss'
 
 
@@ -180,7 +180,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
 		<ThemeManager>
 			<QueueManager>
-				<App />
+				<PlayerSettingsProvider>
+					<App />
+				</PlayerSettingsProvider>
 			</QueueManager>
 		</ThemeManager>
 	</React.StrictMode>,

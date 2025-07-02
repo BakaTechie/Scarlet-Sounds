@@ -46,9 +46,6 @@ export function Controller(props) {
 			<ControllerBg/>
 			<div className="controller-inner">
 				<div className="song-badges">
-					<div className="song-badge">
-						{ queueManager.currentSong?.type.replace(/^\w/, c => c.toUpperCase()) ?? " " }
-					</div>
 					{
 						queueManager.currentSong?.album && (
 							<div className="song-badge">

@@ -1,7 +1,6 @@
-import { useEffect, useLayoutEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import IconButton from './components/IconButton.jsx'
 import TopAppBar from './components/TopAppBar.jsx'
-import Card from './components/Card.jsx'
 import { FaGithub } from 'react-icons/fa'
 import { SongListSection } from './SongListSection.jsx'
 import { NowPlayingSection } from './NowPlayingSection.jsx'
