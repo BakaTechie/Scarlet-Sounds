@@ -23,7 +23,7 @@ function App() {
 					</>
 				}
 			>
-				MIMI Radio
+				Scarlet Sounds
 				{' '}
 				<SongCount/>
 			</TopAppBar>
