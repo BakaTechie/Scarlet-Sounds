@@ -3,16 +3,35 @@
         "name": "東方言えるかな",
         "artist": "森羅万象",
         "singer": "あやぽんず＊,あよ,すばる",
-        "translatedName": null,
+        "translatedName": "能否说出东方",
         "length": "7:10",
         "hasLyrics": "Yes",
         "album": null,
         "releaseDate": "2024-10-20T00:00:00.000Z",
         "link": "https://www.youtube.com/watch?v=zzHeG7l6FT8",
         "desc": null,
-        "staff": "Lyrics kaztora,すばる\nIllustration すばる\nMix 水音やむ,waoru,平茸,MK",
+        "staff": "Lyrics: kaztora,すばる\nIllustration: すばる\nMix: 水音やむ,waoru,平茸,MK",
         "cover": "東方言えるかな.png",
         "lyrics": "東方言えるかな - 森羅万象,ちょこふぁん.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
+    },
+    {
+        "name": "魔理沙は大変なものを盗んでいきました",
+        "artist": "IOSYS",
+        "singer": "藤咲かりん",
+        "translatedName": "魔理沙偷走了重要的东西",
+        "length": "4:04",
+        "hasLyrics": "Yes",
+        "album": "東方乙女囃子",
+        "releaseDate": "2006-08-13T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=1pDM6fQUfJs",
+        "desc": null,
+        "staff": "lyrics: ARM with \"loving\" YOUNO\nArrangement: ARM",
+        "cover": "東方乙女囃子.png",
+        "lyrics": "魔理沙は大変なものを盗んでいきました.json",
         "lyricsLangs": [
             "ja",
             "cn"

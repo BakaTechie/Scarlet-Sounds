@@ -52,7 +52,7 @@ export function SongListSection(props) {
 	const { useMirror, setUseMirror } = usePlayerSettings();
 
 	const filteredSongs = songs
-		.filter((song) => selectedTypes.includes(song.artist.toLowerCase()))
+		.filter((song) => selectedTypes.map(artist => artist.toLowerCase()).includes(song.artist.toLowerCase()))
 		.filter((song) => !(hideInstrumentals && !song.hasLyrics))
 		.sort((a, b) => {
 			return (() => {
