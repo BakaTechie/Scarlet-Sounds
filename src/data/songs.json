@@ -29,9 +29,28 @@
         "releaseDate": "2006-08-13T00:00:00.000Z",
         "link": "https://www.youtube.com/watch?v=1pDM6fQUfJs",
         "desc": null,
-        "staff": "lyrics: ARM with \"loving\" YOUNO\nArrangement: ARM",
+        "staff": "Lyrics: ARM with \"loving\" YOUNO\nArrangement: ARM",
         "cover": "東方乙女囃子.png",
         "lyrics": "魔理沙は大変なものを盗んでいきました.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
+    },
+    {
+        "name": "Bad Apple!! feat. nomico",
+        "artist": "Alstroemeria Records",
+        "singer": "のみこ",
+        "translatedName": null,
+        "length": "5:17",
+        "hasLyrics": "Yes",
+        "album": "EXSERENS",
+        "releaseDate": "2006-08-13T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=FtutLA63Cp8",
+        "desc": null,
+        "staff": "Lyricist: Haruka\nProducer: Masayoshi Minoshima",
+        "cover": "EXSERENS.png",
+        "lyrics": "Bad Apple!! feat. nomico.json",
         "lyricsLangs": [
             "ja",
             "cn"
