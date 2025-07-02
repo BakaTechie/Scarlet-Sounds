@@ -198,7 +198,7 @@ function URLPlayer() {
 		<video
 			ref={playerRef}
 			className="url-player"
-			src={queueManager.currentSong.videoURL}
+			src={queueManager?.currentSong?.videoURL}
 			autoPlay={queueManager.autoPlay}
 			controls={false}
 			playsInline={true}
