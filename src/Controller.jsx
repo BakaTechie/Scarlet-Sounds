@@ -199,7 +199,7 @@ function ControllerBg() {
 		let dominantColor = queueManager.currentSong?.dominantColor;
 		if (!dominantColor) {
 			const img = new Image();
-			img.src = queueManager.currentSong.cover;
+			img.src = new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29');
 			dominantColor = await new Promise((resolve, reject) => {
 				img.onload = () => {
 					resolve(sourceColorFromImage(img));
@@ -222,7 +222,7 @@ function ControllerBg() {
 			className="controller-bg"
 			ref={controllerBgRef}
 			style={{
-				backgroundImage: `${queueManager.currentSong?.cover ? queueManager.currentSong.cover : null}`
+				backgroundImage: `url(${queueManager.currentSong?.cover ? new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29') : null})`
 			}}
 		/>
 	);
