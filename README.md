@@ -4,7 +4,7 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 
 ## 为Scarlet Sounds添加新曲
 对于添加新曲十分简单, 首先您需要满足以下条件
-1. 类型为Project同人音乐
+1. 为东方Project同人音乐
 2. 在YouTube上有官方MV
 3. 上传的专辑图片高清无水印
 4. 正确且完整添加歌曲信息
