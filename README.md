@@ -2,6 +2,9 @@
 Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio](https://github.com/solstice23/mimi-radio)开发  
 这个项目的名字来源于[パチュリーズ・ベストヒットGSK](https://en.touhouwiki.net/wiki/Lyrics:_%E3%83%91%E3%83%81%E3%83%A5%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%99%E3%82%B9%E3%83%88%E3%83%92%E3%83%83%E3%83%88GSK)中的幻想乡电台名
 
+## 关于无法播放问题
+默认视频源为YouTube, 请在选项中开启**Mirror Mode**以使用镜像源
+
 ## 为Scarlet Sounds添加新曲
 对于添加新曲十分简单, 首先您需要满足以下条件
 1. 为东方Project同人音乐
