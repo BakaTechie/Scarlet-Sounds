@@ -14,7 +14,7 @@ function App() {
 			<TopAppBar
 				rightButtons={
 					<>
-						<a href="https://github.com/solstice23/mimi-radio" target="_blank" rel="noreferrer noopener" className="github-link">
+						<a href="https://github.com/BakaTechie/scarlet-sounds" target="_blank" rel="noreferrer noopener" className="github-link">
 							<IconButton>
 								<FaGithub/>
 							</IconButton>

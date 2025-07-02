@@ -59,8 +59,6 @@ export function applyNewMdTokens(theme, dark = false) {
 
 import songsRaw from './data/songs.json'
 import shortsRaw from './data/shorts.json'
-import mirroredIds from './data/mirrored.json'
-
 
 
 const songs = songsRaw.map((song) => {
@@ -76,15 +74,13 @@ const songs = songsRaw.map((song) => {
 								.replace('https://youtu.be/', '')
 								.replace('/', '');
 	}
-	song.mirrored = mirroredIds.includes(song.youtubeID);
-	if (song.mirrored) song.videoURL = `//mimi-radio-files.s23.moe/${song.youtubeID}.mp4`;
 	return song;
 }).concat(shortsRaw.map((short) => {
 	short.length = short.length.split(':').map((value) => parseInt(value)).reduce((acc, time) => (60 * acc) + time);
 	short.hash = md5(short.name + short.length).slice(0, 8);
 	if (typeof(short.releaseDate) === 'number' && short.releaseDate < 10000000000) short.releaseDate *= 1000;
 	short.releaseDate = new Date(short.releaseDate);
-	short.videoURL = `//mimi-radio-files.s23.moe/` + short.fileName;
+	short.videoURL = short.fileName;
 	return short;
 })).map((song) => {
 	if (song.hasLyrics) song.hasLyrics = song.hasLyrics.toLowerCase() === 'yes' ? true : false;

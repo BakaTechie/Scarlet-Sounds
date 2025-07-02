@@ -6,8 +6,9 @@ import YouTube from 'react-youtube';
 
 import { QueueContext } from './contexts/QueueContext.jsx';
 import classNames from 'classnames';
+import mirroredIds from './data/mirrored.json'
 
-const enableMirror = false;
+const enableMirror = true;
 
 export function VideoPlayer() {
 	const queueManager = useContext(QueueContext);
@@ -15,8 +16,14 @@ export function VideoPlayer() {
 	let videoType = 'none';
 	if (queueManager?.currentSong?.youtubeID) {
 		videoType = 'youtube';
-	} else if (queueManager?.currentSong?.videoURL) {
+	}  else {
 		videoType = 'url';
+	}
+
+	if (mirroredIds.includes(queueManager?.currentSong?.youtubeID) && enableMirror) {
+		queueManager.currentSong.mirrored = true
+		videoType = 'url';
+		queueManager.currentSong.videoURL = `//bakatechie.129846.xyz/scarlet-sounds-files/${queueManager?.currentSong?.youtubeID}.webm`
 	}
 
 	const cover = queueManager.currentSong?.cover ? new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29') : null;
@@ -24,12 +31,8 @@ export function VideoPlayer() {
 	return (
 		<Card className="video-player-container" ripple={false} layer={false}>
 			{
-				videoType === 'youtube' && (!queueManager.currentSong.mirrored || !enableMirror )&&
+				videoType === 'youtube' &&
 				<YoutubePlayer/>
-			}
-			{
-				videoType === 'youtube' && queueManager.currentSong.mirrored && enableMirror &&
-				<URLPlayer/>
 			}
 			{
 				videoType === 'url' &&
@@ -190,8 +193,6 @@ function URLPlayer() {
 		queueManager.iframeTarget.current = controlProxyRef.current;
 		window.ifr = controlProxyRef.current;
 	}, [queueManager.iframeTarget]);
-
-
 
 	return (
 		<video

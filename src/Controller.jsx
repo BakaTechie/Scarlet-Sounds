@@ -35,9 +35,9 @@ export function Controller(props) {
 
 	useEffect(() => {
 		if (isPaused) {
-			document.title = "MIMI Radio";
+			document.title = "Scarlet Sounds";
 		} else {
-			document.title = `MIMI Radio | ${queueManager.currentSong?.name ?? "MIMI Radio"} - ${queueManager.currentSong?.artist}`;
+			document.title = `Scarlet Sounds | ${queueManager.currentSong?.name ?? "Scarlet Sounds"} - ${queueManager.currentSong?.artist}`;
 		}
 	}, [queueManager.currentSong, isPaused]);
 
@@ -199,7 +199,7 @@ function ControllerBg() {
 		let dominantColor = queueManager.currentSong?.dominantColor;
 		if (!dominantColor) {
 			const img = new Image();
-			img.src = new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29');
+			img.src = queueManager.currentSong.cover;
 			dominantColor = await new Promise((resolve, reject) => {
 				img.onload = () => {
 					resolve(sourceColorFromImage(img));
@@ -222,7 +222,7 @@ function ControllerBg() {
 			className="controller-bg"
 			ref={controllerBgRef}
 			style={{
-				backgroundImage: `url(${queueManager.currentSong?.cover ? new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29') : null})`
+				backgroundImage: `${queueManager.currentSong?.cover ? queueManager.currentSong.cover : null}`
 			}}
 		/>
 	);
