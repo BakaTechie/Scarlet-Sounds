@@ -283,5 +283,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "無間嫉妬劇場『666』",
+        "artist": "森羅万象",
+        "singer": "あやぽんず＊,あよ",
+        "translatedName": "无间嫉妬剧场『666』",
+        "length": "4:41",
+        "hasLyrics": "Yes",
+        "album": "ネタミニティ",
+        "releaseDate": "2018-08-10T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=TPjAsus_bZo",
+        "desc": null,
+        "staff": "arrangement: kaztora\nlyrics: 夜好ころろ",
+        "cover": "ネタミニティ.png",
+        "lyrics": "無間嫉妬劇場『666』.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
