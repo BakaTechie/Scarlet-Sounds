@@ -193,7 +193,7 @@
         "name": "トランスダンスアナーキー",
         "artist": "暁Records",
         "singer": "Stack",
-        "translatedName": null,
+        "translatedName": "疯狂的背景舞者",
         "length": "4:01",
         "hasLyrics": "Yes",
         "album": "Metamorphosis",
@@ -203,6 +203,25 @@
         "staff": "arrangement: Stack\nlyrics: Stack",
         "cover": "Metamorphosis.png",
         "lyrics": "トランスダンスアナーキー.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
+    },
+    {
+        "name": "ねこ巫女れいむB",
+        "artist": "IOSYS",
+        "singer": "miko",
+        "translatedName": "猫巫女灵梦",
+        "length": "3:47",
+        "hasLyrics": "Yes",
+        "album": "東方永雀峰",
+        "releaseDate": "2007-05-21T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=POFeKd9TTbQ",
+        "desc": null,
+        "staff": "arrangement: ARM\nlyrics: ひくら with \"loving\" YOUNO",
+        "cover": "東方永雀峰.png",
+        "lyrics": "ねこ巫女れいむB.json",
         "lyricsLangs": [
             "ja",
             "cn"
