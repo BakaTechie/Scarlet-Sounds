@@ -264,5 +264,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "有頂天ドリーマーズ",
+        "artist": "森羅万象",
+        "singer": "あやぽんず＊",
+        "translatedName": "欣喜若狂的梦想家",
+        "length": "4:14",
+        "hasLyrics": "Yes",
+        "album": "シンクロ",
+        "releaseDate": "2017-08-11T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=zOmbs-UMwx0",
+        "desc": null,
+        "staff": "arrangement: kaztora\narrangement support: ハム (Foxtail-Grass Studio)\nlyrics: ticat, kaztora",
+        "cover": "シンクロ.png",
+        "lyrics": "有頂天ドリーマーズ.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
