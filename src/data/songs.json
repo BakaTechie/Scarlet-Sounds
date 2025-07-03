@@ -93,5 +93,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "チルノのパーフェクトさんすう教室",
+        "artist": "IOSYS",
+        "singer": "miko",
+        "translatedName": "琪露诺的完美算术教室",
+        "length": "4:35",
+        "hasLyrics": "Yes",
+        "album": "東方氷雪歌集",
+        "releaseDate": "2008-11-02T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=xFdDNrd6W9s",
+        "desc": null,
+        "staff": "arrangement: ARM\nlyrics: 夕野 ヨシミ",
+        "cover": "東方氷雪歌集.png",
+        "lyrics": "チルノのパーフェクトさんすう教室.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
