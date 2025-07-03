@@ -1,0 +1,361 @@
+[
+  {
+    "time": 0,
+    "text": "",
+    "interlude": true
+  },
+  {
+    "time": 12212,
+    "text": "もしもーし！",
+    "cn": "喂喂！",
+    "interlude": false
+  },
+  {
+    "time": 12928,
+    "text": "こいし・えぶりうぇあ　いるけど、いません",
+    "cn": "恋·无处不在 却又不见其踪影",
+    "interlude": false
+  },
+  {
+    "time": 15948,
+    "text": "でろでろ　Moshi-Moshi-Do~mo!",
+    "cn": "接电话呀！喂—喂—你～好！",
+    "interlude": false
+  },
+  {
+    "time": 18776,
+    "text": "こいし・のーうぇあ　いません、がいます",
+    "cn": "恋·无影无踪 不存在却又存在",
+    "interlude": false
+  },
+  {
+    "time": 21715,
+    "text": "でてでて　Moshi-Moshi-Mode!",
+    "cn": "快点接呀！喂—喂—模式！",
+    "interlude": false
+  },
+  {
+    "time": 25100,
+    "text": "「＊MoshiMoshiMode＊」",
+    "cn": "「＊MoshiMoshiMode＊」",
+    "interlude": false
+  },
+  {
+    "time": 30530,
+    "text": "原曲：ハルトマンの妖怪少女",
+    "cn": "原曲：ハルトマンの妖怪少女",
+    "interlude": false
+  },
+  {
+    "time": 36251,
+    "text": "だれとでも繋がれちゃうんだって！",
+    "cn": "听说可以跟任何人连线聊天哦！",
+    "interlude": false
+  },
+  {
+    "time": 39068,
+    "text": "十戒モバイル・ハンディな石板で♡",
+    "cn": "十诫行动石板在手、走到哪聊到哪♡",
+    "interlude": false
+  },
+  {
+    "time": 42050,
+    "text": "Hello, hello, hello, it\u0027s me!",
+    "cn": "哈啰、哈啰、哈啰，是我！",
+    "interlude": false
+  },
+  {
+    "time": 45016,
+    "text": "Hello, hello, hello, can you hear me?",
+    "cn": "哈啰、哈啰、哈啰，听得到吗？",
+    "interlude": false
+  },
+  {
+    "time": 47860,
+    "text": "ともだちになろうよ！Follow follow me　えっだーれ？",
+    "cn": "来加好友吧！来关注我 诶？是哪位？",
+    "interlude": false
+  },
+  {
+    "time": 50779,
+    "text": "ともだちやっぱやめよ！Softblock me　ブロックってなに？",
+    "cn": "还是算了吧！解追拉黑 什么是拉黑？",
+    "interlude": false
+  },
+  {
+    "time": 53767,
+    "text": "Hello, hello, hello, it\u0027s me!　やっほ～",
+    "cn": "哈啰、哈啰、哈啰，是我！呀呼～",
+    "interlude": false
+  },
+  {
+    "time": 56663,
+    "text": "Hello, hello, hello, can you see me?　おーい",
+    "cn": "哈啰、哈啰、哈啰，你看见我了吗？喂！",
+    "interlude": false
+  },
+  {
+    "time": 59419,
+    "text": "ヒトミをとじて（みんなウソツキ）",
+    "cn": "闭上眼睛吧（大家都是骗子）",
+    "interlude": false
+  },
+  {
+    "time": 62385,
+    "text": "ヒトミをとじて（みんなダイキライ）",
+    "cn": "闭上眼睛吧（最讨厌大家了）",
+    "interlude": false
+  },
+  {
+    "time": 65360,
+    "text": "聞いて欲しいよ（あのね、送るね）",
+    "cn": "听我说嘛！（嘿我要发送咯）",
+    "interlude": false
+  },
+  {
+    "time": 68167,
+    "text": "＊2＊2　＊2＊2",
+    "cn": "＊2＊2　＊2＊2",
+    "interlude": false
+  },
+  {
+    "time": 71132,
+    "text": "もしもし、わたし！こいしこいし！",
+    "cn": "喂喂，是我！恋恋！",
+    "interlude": false
+  },
+  {
+    "time": 74007,
+    "text": "いまからおうちにい・く・ね",
+    "cn": "我现在就来找·你·咯！",
+    "interlude": false
+  },
+  {
+    "time": 76703,
+    "text": "電源は落としても命落とすな♡",
+    "cn": "就算关掉手机、也别关掉你的生命哦♡",
+    "interlude": false
+  },
+  {
+    "time": 79761,
+    "text": "ニューロン伝導もしもしも～ど！",
+    "cn": "神经传导启动喂喂模～式！",
+    "interlude": false
+  },
+  {
+    "time": 82729,
+    "text": "見るから見えない　もう見てるのにね",
+    "cn": "看见却视而不见 明明就有在看",
+    "interlude": false
+  },
+  {
+    "time": 85697,
+    "text": "聞くから聞こえない　もう聞いてるのにね",
+    "cn": "听见却充耳不闻 明明就有在听",
+    "interlude": false
+  },
+  {
+    "time": 88550,
+    "text": "Hello, hello, hello, hello, I\u0027m here",
+    "cn": "哈啰、哈啰、哈啰、哈啰，我在这里哦！",
+    "interlude": false
+  },
+  {
+    "time": 91524,
+    "text": "Hello, hello, hello... ま～しょうがないよね～！",
+    "cn": "哈啰、哈啰、哈啰... 唉～真是没办法呢～！",
+    "interlude": false
+  },
+  {
+    "time": 94403,
+    "text": "ヒトミをとじて（みんなやさしい）",
+    "cn": "闭上眼睛吧（大家都好温柔）",
+    "interlude": false
+  },
+  {
+    "time": 97375,
+    "text": "ヒトミをとじて（みんなダイスキ）",
+    "cn": "闭上眼睛吧（我好喜欢大家）",
+    "interlude": false
+  },
+  {
+    "time": 100344,
+    "text": "わたしのせいなの（消えちゃいたいよ）",
+    "cn": "都是我的错（好想就这样消失啊）",
+    "interlude": false
+  },
+  {
+    "time": 103054,
+    "text": "＊2＊2　＊2＊2",
+    "cn": "＊2＊2　＊2＊2",
+    "interlude": false
+  },
+  {
+    "time": 106046,
+    "text": "もしもし、わたし！こいしこいし！",
+    "cn": "喂喂，是我！恋恋！",
+    "interlude": false
+  },
+  {
+    "time": 109330,
+    "text": "いまからおうちにい・く・ね",
+    "cn": "我现在就来找·你·咯！",
+    "interlude": false
+  },
+  {
+    "time": 111588,
+    "text": "電源は落としても命落とすな♡",
+    "cn": "就算关掉手机、也别关掉你的生命哦♡",
+    "interlude": false
+  },
+  {
+    "time": 114890,
+    "text": "ニューロン伝導もしもしも～ど！",
+    "cn": "神经传导启动喂喂模～式！",
+    "interlude": false
+  },
+  {
+    "time": 117648,
+    "text": "わたしはわたし！キミはだあれ？",
+    "cn": "我就是我呀！那你又是谁呀？",
+    "interlude": false
+  },
+  {
+    "time": 120635,
+    "text": "いま窓の内側にい・る・よ",
+    "cn": "我现在就在你的手机里·面·哦！",
+    "interlude": false
+  },
+  {
+    "time": 123350,
+    "text": "愛の火は燃やしてもポスト燃やすな♡",
+    "cn": "就算燃起爱的火焰、也别在网络炎上哦♡",
+    "interlude": false
+  },
+  {
+    "time": 126324,
+    "text": "シナプス伝達もしもしも～ど！",
+    "cn": "突触传递的喂喂模～式！",
+    "interlude": false
+  },
+  {
+    "time": 129284,
+    "text": "こいし・えぶりうぇあ　いるけど、いません",
+    "cn": "恋·无处不在 却又不见其踪影",
+    "interlude": false
+  },
+  {
+    "time": 133659,
+    "text": "もしもし？もしもし？",
+    "cn": "喂喂？喂喂？",
+    "interlude": false
+  },
+  {
+    "time": 135092,
+    "text": "こいし・のーうぇあ　いません、がいます",
+    "cn": "恋·无影无踪 不存在却又存在",
+    "interlude": false
+  },
+  {
+    "time": 139337,
+    "text": "もしもし？だれか～～",
+    "cn": "喂喂？有人在吗～～",
+    "interlude": false
+  },
+  {
+    "time": 140975,
+    "text": "こいし・えぶりうぇあ　いるけど、いません",
+    "cn": "恋·无处不在 却又不见其踪影",
+    "interlude": false
+  },
+  {
+    "time": 144119,
+    "text": "でろでろ　もしもし？もしもし？",
+    "cn": "接电话呀！喂喂？喂喂？",
+    "interlude": false
+  },
+  {
+    "time": 146657,
+    "text": "こいし・のーうぇあ　いません、がいます",
+    "cn": "恋·无影无踪 不存在却又存在",
+    "interlude": false
+  },
+  {
+    "time": 149690,
+    "text": "でて…あっこんにちは！どちらさまですかあ？！",
+    "cn": "快接吧...啊、你好！请问是哪位？！",
+    "interlude": false
+  },
+  {
+    "time": 152581,
+    "text": "「もしもし　わたし、みんながすき！",
+    "cn": "「喂喂 我、非常喜欢大家！",
+    "interlude": false
+  },
+  {
+    "time": 155547,
+    "text": "わたし以外みんなすき",
+    "cn": "喜欢自己以外的大家",
+    "interlude": false
+  },
+  {
+    "time": 158264,
+    "text": "嫌われてしまうのが怖かったの",
+    "cn": "可是我好怕被讨厌啊",
+    "interlude": false
+  },
+  {
+    "time": 161267,
+    "text": "そしたら誰もいなくなっちゃった」",
+    "cn": "结果最后身边一个人都不剩了」",
+    "interlude": false
+  },
+  {
+    "time": 164248,
+    "text": "もしもし、わたし！こいしこいし！",
+    "cn": "喂喂，是我！恋恋！",
+    "interlude": false
+  },
+  {
+    "time": 167200,
+    "text": "アナタのうしろにい・る・よ",
+    "cn": "我就在你的身·后·哦！",
+    "interlude": false
+  },
+  {
+    "time": 170620,
+    "text": "ヒトミをとじたなら声で恋して♡",
+    "cn": "闭上眼睛用声音来恋爱吧♡",
+    "interlude": false
+  },
+  {
+    "time": 173700,
+    "text": "ノーミソコネクトもしもしも～ど！",
+    "cn": "直连大脑的喂喂模～式！",
+    "interlude": false
+  },
+  {
+    "time": 176530,
+    "text": "こいし・えぶりうぇあ　いるけど、いません",
+    "cn": "恋·无处不在 却又不见其踪影",
+    "interlude": false
+  },
+  {
+    "time": 179360,
+    "text": "でろでろ　Moshi-Moshi-Do~mo!",
+    "cn": "接电话呀！喂—喂—你～好！",
+    "interlude": false
+  },
+  {
+    "time": 181710,
+    "text": "こいし・のーうぇあ　いません、がいます",
+    "cn": "恋·无影无踪 不存在却又存在",
+    "interlude": false
+  },
+  {
+    "time": 184668,
+    "text": "でてでて　Moshi-Moshi-Mode!",
+    "cn": "快点接呀！喂—喂—模式！",
+    "interlude": false
+  }
+]

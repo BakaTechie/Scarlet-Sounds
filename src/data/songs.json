@@ -169,5 +169,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "＊MoshiMoshiMode＊",
+        "artist": "暁Records",
+        "singer": "Stack",
+        "translatedName": null,
+        "length": "3:08",
+        "hasLyrics": "Yes",
+        "album": "＊MoshiMoshiMode＊",
+        "releaseDate": "2025-03-14T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=tD_BpPvkLq0",
+        "desc": null,
+        "staff": "Lyric：Stack\nArrange：Stack Bros.\nIllust：原之 様 (@harano_c)",
+        "cover": "＊MoshiMoshiMode＊.png",
+        "lyrics": "＊MoshiMoshiMode＊.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
