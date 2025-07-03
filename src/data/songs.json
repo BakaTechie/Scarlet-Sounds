@@ -112,5 +112,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "スカーレット警察の ゲットーパトロール24時",
+        "artist": "IOSYS",
+        "singer": "miko,ココ,96,岩杉夏",
+        "translatedName": "斯卡雷特警察巡逻贫民区24时",
+        "length": "4:49",
+        "hasLyrics": "Yes",
+        "album": "スカーレット警察・総集編 春の特別警戒スペシャル",
+        "releaseDate": "2022-05-08T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=7h7bnYA1LXE",
+        "desc": null,
+        "staff": "arrangement: D.watt\nlyrics: 七条 レタス",
+        "cover": "スカーレット警察・総集編 春の特別警戒スペシャル.png",
+        "lyrics": "スカーレット警察の ゲットーパトロール24時.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
