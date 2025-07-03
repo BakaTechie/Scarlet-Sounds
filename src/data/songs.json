@@ -55,5 +55,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "こいしリング",
+        "artist": "ちょこふぁん",
+        "singer": "すばる",
+        "translatedName": "恋视奸",
+        "length": "2:59",
+        "hasLyrics": "Yes",
+        "album": "Cry to Scarlet",
+        "releaseDate": "2025-03-23T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=t4WX0DZScCA",
+        "desc": null,
+        "staff": "【ボーカル・歌詞・イラスト】すばる (@subachoco)\n【作曲】ZUN(上海アリス幻樂団),あきやまうに（黄昏フロンティア）\n【アレンジ】にせプルタブマン,水音やむ",
+        "cover": "Cry to Scarlet.png",
+        "lyrics": "こいしリング.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
