@@ -10,7 +10,7 @@
         "releaseDate": "2024-10-20T00:00:00.000Z",
         "link": "https://www.youtube.com/watch?v=zzHeG7l6FT8",
         "desc": "Album by ShinRa-Bansho & ちょこふぁん",
-        "staff": "Lyrics: kaztora,すばる\nIllustration: すばる\nMix: 水音やむ,waoru,平茸,MK\n",
+        "staff": "Lyrics: kaztora,すばる\nIllustration: すばる\nMix: 水音やむ,waoru,平茸,MK",
         "cover": "東方言えるかな.png",
         "lyrics": "東方言えるかな - 森羅万象,ちょこふぁん.json",
         "lyricsLangs": [
@@ -184,6 +184,25 @@
         "staff": "Lyric：Stack\nArrange：Stack Bros.\nIllust：原之 様 (@harano_c)",
         "cover": "＊MoshiMoshiMode＊.png",
         "lyrics": "＊MoshiMoshiMode＊.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
+    },
+    {
+        "name": "トランスダンスアナーキー",
+        "artist": "暁Records",
+        "singer": "Stack",
+        "translatedName": null,
+        "length": "4:01",
+        "hasLyrics": "Yes",
+        "album": "Metamorphosis",
+        "releaseDate": "2017-12-29T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=o6zvgL4sY18",
+        "desc": null,
+        "staff": "arrangement: Stack\nlyrics: Stack",
+        "cover": "Metamorphosis.png",
+        "lyrics": "トランスダンスアナーキー.json",
         "lyricsLangs": [
             "ja",
             "cn"

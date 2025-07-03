@@ -1,0 +1,493 @@
+[
+  {
+    "time": 0,
+    "text": "",
+    "interlude": true
+  },
+  {
+    "time": 2150,
+    "text": "がんばれ（がんばれ） がんばれ（がんばれ）",
+    "cn": "加油呀~（加油呀~）加油呀~（加油呀~）",
+    "interlude": false
+  },
+  {
+    "time": 4000,
+    "text": "やっちゃえやっちゃえ できる",
+    "cn": "拼吧~拼吧~向前冲！",
+    "interlude": false
+  },
+  {
+    "time": 5900,
+    "text": "がんばれ!（がんばれ!） がんばれ!（がんばれ!）",
+    "cn": "加油呀~（加油呀~）加油呀~（加油呀~）",
+    "interlude": false
+  },
+  {
+    "time": 8430,
+    "text": "やっちゃえ! やっちゃえ! いくよ～",
+    "cn": "大步~大步~前进哟！",
+    "interlude": false
+  },
+  {
+    "time": 12900,
+    "text": "Don\u0027t look Back",
+    "cn": "别回头呀",
+    "interlude": false
+  },
+  {
+    "time": 15240,
+    "text": "Don\u0027t look That",
+    "cn": "别回头呀",
+    "interlude": false
+  },
+  {
+    "time": 17660,
+    "text": "This is",
+    "cn": "就让我们",
+    "interlude": false
+  },
+  {
+    "time": 19100,
+    "text": "Trance Dance Anarchy 1，2，3，Go！",
+    "cn": "跳到天昏地暗神魂颠倒！1，2，3，Go！",
+    "interlude": false
+  },
+  {
+    "time": 40900,
+    "text": "Let\u0027s go いける",
+    "cn": "让我们~跑起来！",
+    "interlude": false
+  },
+  {
+    "time": 41660,
+    "text": "まだまだ ファイト おー!",
+    "cn": "快点快点加把劲！",
+    "interlude": false
+  },
+  {
+    "time": 42880,
+    "text": "Let\u0027s dance いくよ～",
+    "cn": "让我们~跳起来！",
+    "interlude": false
+  },
+  {
+    "time": 44090,
+    "text": "We\u0027re gonna make it!",
+    "cn": "我们一定做得到！",
+    "interlude": false
+  },
+  {
+    "time": 46200,
+    "text": "さあさあ踊れや 何はなくとも",
+    "cn": "来吧来吧跳起来 什么都不要想哟",
+    "interlude": false
+  },
+  {
+    "time": 47800,
+    "text": "いのちを燃やして 燃え尽きるまで",
+    "cn": "燃起你的生命吧 直到它完全燃尽",
+    "interlude": false
+  },
+  {
+    "time": 50180,
+    "text": "さあさあ踊れや 冥加があるぞ",
+    "cn": "来吧来吧跳起来 神灵正庇佑你哟",
+    "interlude": false
+  },
+  {
+    "time": 52720,
+    "text": "没入突入思考はトランス",
+    "cn": "只管跳个不停吧 让大脑陷入迷离",
+    "interlude": false
+  },
+  {
+    "time": 55140,
+    "text": "振り向くな後 ふたっつの影が",
+    "cn": "千万别回头看哦 因为有两个身影",
+    "interlude": false
+  },
+  {
+    "time": 57670,
+    "text": "お前の背中で 笑っているぞ",
+    "cn": "会站在你的身后 疯狂笑个不停哟",
+    "interlude": false
+  },
+  {
+    "time": 60060,
+    "text": "振り向くな後 僕ら二人が",
+    "cn": "千万别回头看哦 因为我们两姐妹",
+    "interlude": false
+  },
+  {
+    "time": 62550,
+    "text": "おまえの魂 鼓舞しているぞ",
+    "cn": "可是会竭尽全力 鼓舞你的灵魂哟",
+    "interlude": false
+  },
+  {
+    "time": 65000,
+    "text": "いつから？ いつでも",
+    "cn": "何时狂舞？不分时间",
+    "interlude": false
+  },
+  {
+    "time": 66160,
+    "text": "どこから？ どこでも",
+    "cn": "何处狂舞？不分场合",
+    "interlude": false
+  },
+  {
+    "time": 67490,
+    "text": "オモテがあるかウラがある",
+    "cn": "不仅舞动身体 更要舞动灵魂",
+    "interlude": false
+  },
+  {
+    "time": 69890,
+    "text": "なにからなにまで",
+    "cn": "世间一切狂舞不止",
+    "interlude": false
+  },
+  {
+    "time": 71140,
+    "text": "すみからすみまで",
+    "cn": "所到之处狂舞不止",
+    "interlude": false
+  },
+  {
+    "time": 72510,
+    "text": "ヒカリのカゲでは でこぼこぼこここ～",
+    "cn": "在光明的阴影下 蹦蹦跳跳狂舞吧~",
+    "interlude": false
+  },
+  {
+    "time": 75980,
+    "text": "最高～! フレフレ! やっちゃえ!",
+    "cn": "摇摆什么的最棒啦！拼到精疲力尽！",
+    "interlude": false
+  },
+  {
+    "time": 79700,
+    "text": "トランス·ダンス·アナーキー！",
+    "cn": "跳到天昏地暗神魂颠倒！",
+    "interlude": false
+  },
+  {
+    "time": 80950,
+    "text": "お呼びでない？ そんなの関係ない",
+    "cn": "没有欢呼一片吗？那也没有关系啦！",
+    "interlude": false
+  },
+  {
+    "time": 85830,
+    "text": "いま君のうしろに もう私が（僕も～）いるよ～",
+    "cn": "现在在你身后的 可是我哟~（还有我~）",
+    "interlude": false
+  },
+  {
+    "time": 95190,
+    "text": "それっそれっ!",
+    "cn": "快点快点！",
+    "interlude": false
+  },
+  {
+    "time": 95720,
+    "text": "Let\u0027s go いける",
+    "cn": "让我们~跑起来！",
+    "interlude": false
+  },
+  {
+    "time": 96820,
+    "text": "まだまだ ファイト おー!",
+    "cn": "快点快点加把劲！",
+    "interlude": false
+  },
+  {
+    "time": 98170,
+    "text": "Let\u0027s dance いくよ～",
+    "cn": "让我们~跳起来！",
+    "interlude": false
+  },
+  {
+    "time": 100000,
+    "text": "We\u0027re gonna make it!",
+    "cn": "我们一定做得到！",
+    "interlude": false
+  },
+  {
+    "time": 100700,
+    "text": "実力以上も実力のうち",
+    "cn": "突破现在的你吧 解放你的实力吧",
+    "interlude": false
+  },
+  {
+    "time": 103130,
+    "text": "秘めたるチカラはいつかのフツウ",
+    "cn": "这份神秘的力量 也将会为你所有",
+    "interlude": false
+  },
+  {
+    "time": 105550,
+    "text": "みせてよ みせてよ ほんとのきみを",
+    "cn": "看清楚哟看清楚 这才是真正的你",
+    "interlude": false
+  },
+  {
+    "time": 108040,
+    "text": "背中の扉は秘密にしてね",
+    "cn": "而你身后的门扉 可别让人知道哟",
+    "interlude": false
+  },
+  {
+    "time": 110570,
+    "text": "いつから？ いつでも",
+    "cn": "何时狂舞？不分时间",
+    "interlude": false
+  },
+  {
+    "time": 111740,
+    "text": "どこから？ どこでも",
+    "cn": "何处狂舞？不分场合",
+    "interlude": false
+  },
+  {
+    "time": 112960,
+    "text": "オモテがウラには隠しドア",
+    "cn": "万物的背后皆有秘扉哦",
+    "interlude": false
+  },
+  {
+    "time": 115410,
+    "text": "なにからなにまで",
+    "cn": "世间一切狂舞不止",
+    "interlude": false
+  },
+  {
+    "time": 116520,
+    "text": "すみからすみまで",
+    "cn": "所到之处狂舞不止",
+    "interlude": false
+  },
+  {
+    "time": 117840,
+    "text": "ヒカリのカゲでは ぼこでこでこで～",
+    "cn": "在光明的阴影下 蹦蹦跳跳狂舞吧~",
+    "interlude": false
+  },
+  {
+    "time": 120460,
+    "text": "最高～! フレフレ! やっちゃえ!",
+    "cn": "摇摆什么的最棒啦！拼到精疲力尽！",
+    "interlude": false
+  },
+  {
+    "time": 123940,
+    "text": "トランス·ダンス·アナーキー！",
+    "cn": "跳到天昏地暗神魂颠倒！",
+    "interlude": false
+  },
+  {
+    "time": 125210,
+    "text": "お呼びでない？ そんなの関係ない",
+    "cn": "没有欢呼一片吗？那也没有关系啦！",
+    "interlude": false
+  },
+  {
+    "time": 130130,
+    "text": "いま君のうしろで僕たちが（二人で！）踊るよ～",
+    "cn": "现在你身后的我们（两姐妹！） 都在为你狂舞哟~",
+    "interlude": false
+  },
+  {
+    "time": 139520,
+    "text": "それっそれっ!",
+    "cn": "快点快点！",
+    "interlude": false
+  },
+  {
+    "time": 140030,
+    "text": "Let\u0027s go いける",
+    "cn": "让我们~跑起来！",
+    "interlude": false
+  },
+  {
+    "time": 141200,
+    "text": "まだまだ ファイト おー！",
+    "cn": "快点快点加把劲！",
+    "interlude": false
+  },
+  {
+    "time": 142420,
+    "text": "Let\u0027s dance いくよ～",
+    "cn": "让我们~跳起来！",
+    "interlude": false
+  },
+  {
+    "time": 143770,
+    "text": "We\u0027re gonna make it!",
+    "cn": "我们一定做得到！",
+    "interlude": false
+  },
+  {
+    "time": 144930,
+    "text": "Go for it! 臨界! 突破! かーニバル!",
+    "cn": "让我们~拼起来！极限突破大狂欢！",
+    "interlude": false
+  },
+  {
+    "time": 147300,
+    "text": "Cheer up! やるぞ～",
+    "cn": "让我们~嗨起来！",
+    "interlude": false
+  },
+  {
+    "time": 148510,
+    "text": "それそれ ファイト おー!",
+    "cn": "快点快点向前冲！",
+    "interlude": false
+  },
+  {
+    "time": 151880,
+    "text": "Don\u0027t look Back",
+    "cn": "别回头呀",
+    "interlude": false
+  },
+  {
+    "time": 154600,
+    "text": "Don\u0027t look That",
+    "cn": "别回头呀",
+    "interlude": false
+  },
+  {
+    "time": 156790,
+    "text": "This is",
+    "cn": "就让我们",
+    "interlude": false
+  },
+  {
+    "time": 157300,
+    "text": "Trance Dance Anarchy 1, 2, 3, Go!",
+    "cn": "跳到天昏地暗神魂颠倒！1，2，3，Go！",
+    "interlude": false
+  },
+  {
+    "time": 180580,
+    "text": "最高～! フレフレ! やりきれ!",
+    "cn": "摇摆什么的最棒啦！拼到精疲力尽！",
+    "interlude": false
+  },
+  {
+    "time": 184300,
+    "text": "トランス·ダンス·アナーキー！",
+    "cn": "跳到天昏地暗神魂颠倒！",
+    "interlude": false
+  },
+  {
+    "time": 185560,
+    "text": "振り向いていいよ ただし 秘密にしてね",
+    "cn": "回头也没关系啦 但要好好保密哟！",
+    "interlude": false
+  },
+  {
+    "time": 190500,
+    "text": "いつも 君のうしろで 励ましちゃうよ～",
+    "cn": "我们会一直在你身后 为你加油~",
+    "interlude": false
+  },
+  {
+    "time": 197650,
+    "text": "がんばれ～それっそれっ!",
+    "cn": "为你呐喊哟~快点快点！",
+    "interlude": false
+  },
+  {
+    "time": 200240,
+    "text": "イェイ、イェイ、イェイ それっ！",
+    "cn": "Yeah! Yeah! Yeah! 快点！",
+    "interlude": false
+  },
+  {
+    "time": 202740,
+    "text": "ヘイ、ヘイ、ヘイ わっしょいっ！",
+    "cn": "Hey! Hey! Hey! 嘿咻！",
+    "interlude": false
+  },
+  {
+    "time": 205200,
+    "text": "ホイ、ホイ、ホイ さぁ",
+    "cn": "Hoy! Hoy! Hoy! 来吧！",
+    "interlude": false
+  },
+  {
+    "time": 207650,
+    "text": "ソイ、ソイ、ソイ そいやっ！",
+    "cn": "Soy! Soy! Soy! 坚持下去！",
+    "interlude": false
+  },
+  {
+    "time": 210110,
+    "text": "イェイ、イェイ、イェイ それっ！",
+    "cn": "Yeah! Yeah! Yeah! 快点！",
+    "interlude": false
+  },
+  {
+    "time": 212580,
+    "text": "ヘイ、ヘイ、ヘイ わっしょいっ！わっしょいっ！",
+    "cn": "Hey! Hey! Hey! 嘿咻！嘿咻！",
+    "interlude": false
+  },
+  {
+    "time": 214920,
+    "text": "ホイ、ホイ、ホイ さぁ",
+    "cn": "Hoy! Hoy! Hoy! 来吧！",
+    "interlude": false
+  },
+  {
+    "time": 217510,
+    "text": "それっそれっそれっそれっ それっそれっそれっそれっ！",
+    "cn": "快点快点快点快点！快点快点快点快点！",
+    "interlude": false
+  },
+  {
+    "time": 219940,
+    "text": "Let\u0027s go いける",
+    "cn": "让我们~跑起来！",
+    "interlude": false
+  },
+  {
+    "time": 221160,
+    "text": "まだまだ ファイト おー!",
+    "cn": "快点快点加把劲！",
+    "interlude": false
+  },
+  {
+    "time": 223100,
+    "text": "Let\u0027s dance いくよ～",
+    "cn": "让我们~跳起来！",
+    "interlude": false
+  },
+  {
+    "time": 223600,
+    "text": "We\u0027re gonna make it!",
+    "cn": "我们一定做得到！",
+    "interlude": false
+  },
+  {
+    "time": 224860,
+    "text": "Go for it! 臨界! 突破! かーニバル!",
+    "cn": "让我们~拼起来！极限突破大狂欢！",
+    "interlude": false
+  },
+  {
+    "time": 227230,
+    "text": "Cheer up!  どうだ～",
+    "cn": "嗨起来~很棒吧~",
+    "interlude": false
+  },
+  {
+    "time": 228480,
+    "text": "おみごとっ! やったー!",
+    "cn": "完美收场！漂亮！",
+    "interlude": false
+  }
+]
