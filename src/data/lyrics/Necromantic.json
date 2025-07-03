@@ -1,0 +1,313 @@
+[
+  {
+    "time": 0,
+    "text": "",
+    "interlude": true
+  },
+  {
+    "time": 3700,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 7250,
+    "text": "私のココロ奪うのはア•ナ•タ",
+    "cn": "夺走我心的就·是·你",
+    "interlude": false
+  },
+  {
+    "time": 10650,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 13950,
+    "text": "私のココロ掻き乱してワン•モア•タイム",
+    "cn": "将我的心扰乱One·More·Time",
+    "interlude": false
+  },
+  {
+    "time": 17300,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 20550,
+    "text": "いますぐ逢いにきて！ネクロマンティック",
+    "cn": "现在就来与我相会！Necromantic",
+    "interlude": false
+  },
+  {
+    "time": 23900,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 27200,
+    "text": "私とアナタだけの世界ロマンティック",
+    "cn": "只有你我二人的世界 如此浪漫",
+    "interlude": false
+  },
+  {
+    "time": 43900,
+    "text": "Necomantic　理なんてこの世に沿う様に蔓延る断定",
+    "cn": "通灵妖术 “这世界依理而存”的断定蔓延开来",
+    "interlude": false
+  },
+  {
+    "time": 47250,
+    "text": "Necomantic　だってロマンティック退廃、**、てんで不安定",
+    "cn": "通灵妖术 也因此浪漫 退废、、全部不安定",
+    "interlude": false
+  },
+  {
+    "time": 50600,
+    "text": "Wow-oh　逢いたいよ　I wanna see you die",
+    "cn": "Wow-oh 渴望相遇 一睹你的死亡",
+    "interlude": false
+  },
+  {
+    "time": 53950,
+    "text": "Wow-oh　見せつけて　I wanna see you die",
+    "cn": "Wow-oh 找寻着你 见证你的死亡",
+    "interlude": false
+  },
+  {
+    "time": 57210,
+    "text": "傷つけても傷つけても",
+    "cn": "尽管受伤 满身疮痍",
+    "interlude": false
+  },
+  {
+    "time": 60350,
+    "text": "何度だって追いかけてきて",
+    "cn": "仍无数次地追寻着",
+    "interlude": false
+  },
+  {
+    "time": 63750,
+    "text": "私だけを見つめていて",
+    "cn": "只许你看我一人哦",
+    "interlude": false
+  },
+  {
+    "time": 67000,
+    "text": "その濁ったブラインド•アイで",
+    "cn": "用那只浑浊的Blind Eye",
+    "interlude": false
+  },
+  {
+    "time": 70560,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 73900,
+    "text": "私のココロ奪うのはア•ナ•タ",
+    "cn": "夺走我心的就·是·你",
+    "interlude": false
+  },
+  {
+    "time": 77250,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 80500,
+    "text": "私のココロ掻き乱してワン•モア•タイム",
+    "cn": "将我的心扰乱One·More·Time",
+    "interlude": false
+  },
+  {
+    "time": 83850,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 87150,
+    "text": "いますぐ逢いにきて！ネクロマンティック",
+    "cn": "现在就来与我相会！Necromantic",
+    "interlude": false
+  },
+  {
+    "time": 90550,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 93750,
+    "text": "私とアナタだけの世界ロマンティック",
+    "cn": "只有你我二人的世界 如此浪漫",
+    "interlude": false
+  },
+  {
+    "time": 110300,
+    "text": "Necomantic　腐り落ちて散々無残な姿になあれ",
+    "cn": "通灵妖术 身躯腐化散落 却丝毫不知羞愧",
+    "interlude": false
+  },
+  {
+    "time": 113850,
+    "text": "Necomantic　そしてロマンティック何度も何度も何度目だって",
+    "cn": "通灵妖术 却仍然浪漫 尽管重复千百万次",
+    "interlude": false
+  },
+  {
+    "time": 117300,
+    "text": "Wow-oh　生きたいの？　I wanna see you die",
+    "cn": "Wow-oh 渴望生存？ 我却想一睹你的死亡",
+    "interlude": false
+  },
+  {
+    "time": 120600,
+    "text": "Wow-oh　死にたいの？　I wanna see you die",
+    "cn": "Wow-oh 想要赴死？ 我亦想见证你的死亡",
+    "interlude": false
+  },
+  {
+    "time": 123960,
+    "text": "この世界中全部全部",
+    "cn": "这世界的一切一切",
+    "interlude": false
+  },
+  {
+    "time": 126950,
+    "text": "アナタを疎む敵になったって",
+    "cn": "都将你疏远 如同敌对",
+    "interlude": false
+  },
+  {
+    "time": 130350,
+    "text": "私だけは愛してあげる",
+    "cn": "只有我给了你爱",
+    "interlude": false
+  },
+  {
+    "time": 133650,
+    "text": "アナタのそばにいてあげるわ",
+    "cn": "永远会待在你身边哦",
+    "interlude": false
+  },
+  {
+    "time": 137310,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 140550,
+    "text": "私のココロ奪うのはア•ナ•タ",
+    "cn": "夺走我心的就·是·你",
+    "interlude": false
+  },
+  {
+    "time": 143850,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 147200,
+    "text": "私のココロ掻き乱してワン•モア•タイム",
+    "cn": "将我的心扰乱One·More·Time",
+    "interlude": false
+  },
+  {
+    "time": 150550,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 153850,
+    "text": "私を求めてよ！ネクロマンティック",
+    "cn": "来渴求我吧！Necromantic",
+    "interlude": false
+  },
+  {
+    "time": 157200,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 160550,
+    "text": "壊して欲しいでしょ？だってロマンティック",
+    "cn": "想要坏掉对吧？因为这就是浪漫",
+    "interlude": false
+  },
+  {
+    "time": 163960,
+    "text": "ああ、張り裂けるココロが喉につかえちゃって愛を吐くの",
+    "cn": "啊啊、张裂的心堵住了喉咙 吐出爱意",
+    "interlude": false
+  },
+  {
+    "time": 176950,
+    "text": "ああ、八つ裂きにしたいの　ピンクの踊る心臓鳥かごに入れて",
+    "cn": "啊啊、想要大卸八块 将粉红的跳动的心脏丢入鸟笼",
+    "interlude": false
+  },
+  {
+    "time": 190610,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 193900,
+    "text": "私のココロ蝕むのア•ナ•タ",
+    "cn": "侵蚀我心的就·是·你",
+    "interlude": false
+  },
+  {
+    "time": 197250,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 200550,
+    "text": "私のことを好きだって言わないの？",
+    "cn": "说不出喜欢我的哪一点么？",
+    "interlude": false
+  },
+  {
+    "time": 203900,
+    "text": "ドキドキ★ワクワク　胸がタカナル",
+    "cn": "心动不已★激动不安 胸中大声鼓动",
+    "interlude": false
+  },
+  {
+    "time": 207250,
+    "text": "コワシテモアイシテ　ネクロマンテイック",
+    "cn": "恐惧着亦爱恋着 Necromantic",
+    "interlude": false
+  },
+  {
+    "time": 210550,
+    "text": "ドキドキ★ワクワク　胸がザワメク",
+    "cn": "心动不已★激动不安 胸中窃窃私语",
+    "interlude": false
+  },
+  {
+    "time": 213900,
+    "text": "ずっとそばにいてくれるよね、死んでも！",
+    "cn": "永远待在你身边 不惧死亡！",
+    "interlude": false
+  },
+  {
+    "time": 219600,
+    "text": "死んでも、死んでも、死んでも、",
+    "cn": "就算死亡...",
+    "interlude": false
+  }
+]

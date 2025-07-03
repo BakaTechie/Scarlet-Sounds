@@ -150,5 +150,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "Necromantic",
+        "artist": "暁Records",
+        "singer": "Stack",
+        "translatedName": null,
+        "length": "4:29",
+        "hasLyrics": "Yes",
+        "album": "太陽の花 -Eternal Summer-",
+        "releaseDate": "2019-08-12T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=RtTYQuO1j6w",
+        "desc": null,
+        "staff": "arrangement: Stack Bros.\nlyrics: Stack",
+        "cover": "太陽の花 -Eternal Summer-.png",
+        "lyrics": "Necromantic.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
