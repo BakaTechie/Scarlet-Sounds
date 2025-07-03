@@ -74,5 +74,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "三妖精SAY YA!!!",
+        "artist": "森羅万象",
+        "singer": "あやぽんず＊,あよ",
+        "translatedName": null,
+        "length": "4:25",
+        "hasLyrics": "Yes",
+        "album": "エイセイパレード",
+        "releaseDate": "2019-05-05T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=sToRddIV7kU",
+        "desc": null,
+        "staff": "lyrics: ACTRock (Inorai)\ndrum: まおう\nbass: Pira",
+        "cover": "エイセイパレード.png",
+        "lyrics": "三妖精SAY YA!!!.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
