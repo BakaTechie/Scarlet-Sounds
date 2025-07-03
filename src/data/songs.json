@@ -6,11 +6,11 @@
         "translatedName": "能否说出东方",
         "length": "7:10",
         "hasLyrics": "Yes",
-        "album": null,
+        "album": "東方言えるかな",
         "releaseDate": "2024-10-20T00:00:00.000Z",
         "link": "https://www.youtube.com/watch?v=zzHeG7l6FT8",
-        "desc": null,
-        "staff": "Lyrics: kaztora,すばる\nIllustration: すばる\nMix: 水音やむ,waoru,平茸,MK",
+        "desc": "Album by ShinRa-Bansho & ちょこふぁん",
+        "staff": "Lyrics: kaztora,すばる\nIllustration: すばる\nMix: 水音やむ,waoru,平茸,MK\n",
         "cover": "東方言えるかな.png",
         "lyrics": "東方言えるかな - 森羅万象,ちょこふぁん.json",
         "lyricsLangs": [
@@ -127,6 +127,25 @@
         "staff": "arrangement: D.watt\nlyrics: 七条 レタス",
         "cover": "スカーレット警察・総集編 春の特別警戒スペシャル.png",
         "lyrics": "スカーレット警察の ゲットーパトロール24時.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
+    },
+    {
+        "name": "Midnight Parade",
+        "artist": "暁Records",
+        "singer": "Stack",
+        "translatedName": "午夜游行",
+        "length": "4:06",
+        "hasLyrics": "Yes",
+        "album": "Midnight Parade",
+        "releaseDate": "2024-10-20T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=rziZMYt8990",
+        "desc": null,
+        "staff": "Lyric：Stack\nArrange：Stack Bros.\nIllust：原之 様 (@harano_c)",
+        "cover": "Midnight Parade.png",
+        "lyrics": "Midnight Parade.json",
         "lyricsLangs": [
             "ja",
             "cn"
