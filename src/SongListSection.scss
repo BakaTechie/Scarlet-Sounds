@@ -308,3 +308,33 @@
 	background-color: color-mix(in srgb, var(--md-sys-color-error-container) 40%, transparent 50%);
     color: var(--md-sys-color-error);
 }
+
+.song-search-input {
+	padding: 10px 16px;
+	font-size: 1rem;
+	border: 1.5px solid var(--md-sys-color-outline);
+	border-radius: 24px;        /* 圆润的胶囊形 */
+	width: 100%;
+	max-width: 280px;           /* 最大宽度280px */
+	background-color: var(--md-sys-color-surface);
+	color: var(--md-sys-color-on-surface);
+	box-sizing: border-box;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	outline: none;
+	margin-top: 8px;
+}
+
+/* 聚焦时高亮边框和阴影 */
+.song-search-input:focus {
+	border-color: var(--md-sys-color-primary);
+	box-shadow: 0 0 8px var(--md-sys-color-primary);
+}
+
+/* 小屏幕时自动缩小 */
+@media (max-width: 480px) {
+	.song-search-input {
+		max-width: 18vw;
+		font-size: 0.9rem;
+		padding: 8px 14px;
+	}
+}

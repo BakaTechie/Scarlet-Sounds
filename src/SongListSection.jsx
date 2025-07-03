@@ -52,8 +52,23 @@ export function SongListSection(props) {
 	const { useMirror, setUseMirror } = usePlayerSettings();
 
 	const filteredSongs = songs
-		.filter((song) => selectedTypes.map(artist => artist.toLowerCase()).includes(song.artist.toLowerCase()))
+		.filter((song) => {
+			// 如果有搜索关键词，则不使用 artists 类型筛选
+			if (props?.searchQuery?.trim()) return true;
+			return selectedTypes.map(artist => artist.toLowerCase()).includes(song.artist.toLowerCase());
+		})
 		.filter((song) => !(hideInstrumentals && !song.hasLyrics))
+		.filter((song) => {
+			if (!props?.searchQuery?.trim()) return true;
+			const query = props?.searchQuery?.trim().toLowerCase();
+			return (
+				song.name.toLowerCase().includes(query) ||
+				song.artist?.toLowerCase().includes(query) ||
+				song.singer?.toLowerCase().includes(query) ||
+				song.translatedName?.toLowerCase().includes(query) ||
+				song.album?.toLowerCase().includes(query)
+			);
+		})
 		.sort((a, b) => {
 			return (() => {
 				if (sortCriteria === 'date') {
@@ -98,6 +113,7 @@ export function SongListSection(props) {
 						setSelected={setSelectedTypes}
 					/>
 					<div className="list-header-buttons">
+
 						<IconButton
 							className="list-style-switch-btn"
 							title="List Style"
