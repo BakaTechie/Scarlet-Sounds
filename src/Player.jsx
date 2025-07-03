@@ -22,7 +22,7 @@ export function VideoPlayer() {
 
 	if (mirroredIds.includes(queueManager?.currentSong?.youtubeID) && useMirror) {
 		videoType = 'url';
-		queueManager.currentSong.videoURL = `//bakatechie.129846.xyz/scarlet-sounds-files/${queueManager?.currentSong?.youtubeID}.webm`
+		queueManager.currentSong.videoURL = `//bakatechie.129846.xyz/scarlet-sounds-files/${queueManager?.currentSong?.youtubeID}.mp4`
 	}
 
 	const cover = queueManager.currentSong?.cover ? new URL(`./data/covers/${queueManager.currentSong.cover}`, import.meta.url).href.replace(/'/g, '%27').replace(/\(/g, '%28').replace(/\)/g, '%29') : null;
