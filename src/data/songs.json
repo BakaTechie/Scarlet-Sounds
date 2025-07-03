@@ -226,5 +226,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "悪戯センセーション",
+        "artist": "森羅万象",
+        "singer": "あやぽんず＊,あよ",
+        "translatedName": null,
+        "length": "4:27",
+        "hasLyrics": "Yes",
+        "album": "悪戯 センセーション",
+        "releaseDate": "2017-05-07T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=_VH91mivTUw",
+        "desc": null,
+        "staff": "arrangement: kaztora\nlyrics: kaztora, ticat",
+        "cover": "悪戯 センセーション.png",
+        "lyrics": "悪戯センセーション.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
