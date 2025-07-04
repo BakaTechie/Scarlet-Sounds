@@ -416,5 +416,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "Against, Perfect Cherry Blossom.",
+        "circle": "Alstroemeria Records",
+        "singer": "坂上なち",
+        "translatedName": null,
+        "length": "5:40",
+        "hasLyrics": "Yes",
+        "album": "Nachtansicht",
+        "releaseDate": "2017-12-29T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=aXK4-RGf_k4",
+        "desc": null,
+        "staff": "arrangement: Masayoshi Minoshima\nlyrics: Haruka",
+        "cover": "Nachtansicht.webp",
+        "lyrics": "Against, Perfect Cherry Blossom.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
