@@ -29,7 +29,7 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 | `link`           | `string`            | 是 | `"https://www.youtube.com/watch?v=Baka"` | YouTube官方MV链接       |
 | `desc`           | `string`或`null`     | 否 | `"我是描述字段"` 或 `null`                      | 可选的补充说明             |
 | `staff`          | `string`            | 是 | `"Lyrics A\nIllustration B\nMix C"`      | 作曲人员信息，使用 `\n` 换行表示角色划分 |
-| `cover`          | `string`            | 是 | `"东方言えるかな.png"`                          | 封面图片文件名，请放在 `/src/data/covers` 目录下 |
+| `cover`          | `string`            | 是 | `"东方言えるかな.webp"`                         | 封面图片文件名，请放在 `/src/data/covers` 目录下 |
 | `lyrics`         | `string`或`null`     | 否 | `"東方言えるかな.json"` 或 `null`                | 歌词文件名（JSON 格式）      |
 | `lyricsLangs`    | `string[]`          | 否 | `["ja", "cn"]`                           | 若歌词文件为多语言, 则需要填写    |
 
