@@ -49,5 +49,5 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 **注意:** 歌词文件名必须与歌曲信息中填写一致
 
 ### 镜像文件说明
-YouTube视频镜像文件位于[**scarlet-sounds-files**](https://github.com/BakaTechie/scarlet-sounds-files)仓库中, 请将YouTube下载的视频重命名为`youtubeid.webp`格式(如示例值为`Baka`), 并上传至根目录下  
+YouTube视频镜像文件位于[**scarlet-sounds-files**](https://github.com/BakaTechie/scarlet-sounds-files)仓库中, 请将YouTube下载的视频重命名为`youtubeid.mp4`格式(如示例值为`Baka`), 并上传至根目录下  
 **注意:** 推荐视频格式为720p30, 大小受限制于100兆字节以内
