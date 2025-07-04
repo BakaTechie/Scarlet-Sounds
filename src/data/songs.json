@@ -397,5 +397,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "幻想浪漫綺行",
+        "circle": "凋叶棕",
+        "singer": "めらみぽっぷ",
+        "translatedName": "幻想浪漫绮行",
+        "length": "5:48",
+        "hasLyrics": "Yes",
+        "album": "祀",
+        "releaseDate": "2017-12-29T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=fEd-NdDollg",
+        "desc": null,
+        "staff": "arrangement & lyrics: RD-Sounds",
+        "cover": "祀.webp",
+        "lyrics": "幻想浪漫綺行.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
