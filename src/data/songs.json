@@ -340,5 +340,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "華鳥風月",
+        "artist": "幽閉サテライト",
+        "singer": "senya",
+        "translatedName": "华鸟风月",
+        "length": "5:47",
+        "hasLyrics": "Yes",
+        "album": "華鳥風月",
+        "releaseDate": "2012-05-27T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=gXCI8vJTjqA",
+        "desc": null,
+        "staff": "arrangement: Iceon\nlyrics: かませ虎",
+        "cover": "華鳥風月.webp",
+        "lyrics": "華鳥風月.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
