@@ -7,6 +7,8 @@
 	width: 100%;
 	scroll-behavior: smooth;
 	padding-bottom: 2px;
+	box-sizing: border-box;
+	max-width: 100%;
 
 	&::-webkit-scrollbar {
 		height: 6px;
@@ -21,21 +23,28 @@
 
 	.segmentedButton {
 		flex: 0 0 auto;
-		min-width: max-content;
-		margin-right: -1px; // 挤掉重叠边框
+		min-width: 72px;
+		max-width: 160px;
+		margin-right: -1px;
 		position: relative;
 
 		height: 40px;
-		padding: 0 36px;
+		padding: 0 16px;
 		border: 1px solid var(--md-sys-color-outline);
 		border-radius: 0;
 		background: transparent;
 		color: var(--md-sys-color-on-surface);
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		cursor: pointer;
 		transition: background-color 0.2s ease, color 0.2s ease;
+
+		display: grid;
+		grid-template-columns: auto 1fr;
+		align-items: center;
+		gap: 8px;
+
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
 
 		&::before {
 			content: '';
@@ -56,6 +65,7 @@
 			background-color: var(--md-sys-color-secondary-container);
 			color: var(--md-sys-color-on-secondary-container);
 			z-index: 1;
+
 			&::before {
 				background-color: var(--md-sys-color-on-secondary-container);
 			}
@@ -70,19 +80,14 @@
 			border-bottom-right-radius: 999px;
 		}
 
-		$icon-size: 1.25em;
-		$icon-label-spacing: 0.2em;
-
 		.icon {
-			font-size: $icon-size;
-			width: $icon-size;
-			min-width: $icon-size;
-			display: inline-flex;
+			width: 1.25em;
+			height: 1.25em;
+			display: flex;
 			justify-content: center;
 			align-items: center;
-			transform: translateX(($icon-size + $icon-label-spacing) * -0.5);
 			transition: opacity 0.2s ease;
-			margin-bottom: -0.15em;
+			flex-shrink: 0;
 		}
 		.iconCheck {
 			opacity: 0;
@@ -96,12 +101,9 @@
 			}
 		}
 		.label {
-			transform: none;
-			transition: transform 0.2s ease;
-		}
-		&.selected .label,
-		.iconCustom + .label {
-			transform: translateX(($icon-size + $icon-label-spacing) * 0.5);
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
 		}
 	}
 }
@@ -109,6 +111,10 @@
 .segmentedButtonsWrapper {
 	position: relative;
 	width: 100%;
+	max-height: 48px;
+	overflow: hidden;
+	box-sizing: border-box;
+	z-index: 0;
 }
 
 .shadow {

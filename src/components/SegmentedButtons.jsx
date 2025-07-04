@@ -102,6 +102,26 @@ const SegmentedButtons = forwardRef(function SegmentedButtons(props, ref) {
 
 function SegmentedButton(props) {
 	const container = useRipple();
+
+	const renderIcon = () => {
+		if (props.selected) {
+			return (
+				<Icon className={classNames(css.icon, css.iconCheck)}>
+					<MdCheck />
+				</Icon>
+			);
+		}
+		if (props.icon) {
+			return (
+				<Icon className={classNames(css.icon, css.iconCustom)}>
+					{props.icon}
+				</Icon>
+			);
+		}
+		// 占位，确保 label 居中
+		return <span style={{ width: '1.25em' }} />;
+	};
+
 	return (
 		<button
 			ref={container}
@@ -114,10 +134,7 @@ function SegmentedButton(props) {
 					: props.dispatchSelected({ type: 'select', value: props.value })
 			}
 		>
-			<Icon className={classNames(css.icon, css.iconCheck)}>
-				<MdCheck />
-			</Icon>
-			{props.icon && <Icon className={classNames(css.icon, css.iconCustom)}>{props.icon}</Icon>}
+			{renderIcon()}
 			<div className={css.label}>{props.label}</div>
 		</button>
 	);
