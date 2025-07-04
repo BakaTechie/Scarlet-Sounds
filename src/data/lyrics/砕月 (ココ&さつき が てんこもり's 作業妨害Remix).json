@@ -1,0 +1,487 @@
+[
+  {
+    "time": 0,
+    "text": "",
+    "interlude": true
+  },
+  {
+    "time": 1280,
+    "text": "うぃーあーざじゃぱにーずごぶりん",
+    "cn": "We are the Japanese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 3890,
+    "text": "どぅゆぅはぶけいのたかとびおにごろし",
+    "cn": "Do you have 高跳桂马的鬼杀吗（将棋战法）",
+    "interlude": false
+  },
+  {
+    "time": 6560,
+    "text": "あいあむえぇとじゃぱにーずごぶりん",
+    "cn": "I am um... Japanese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 9200,
+    "text": "あかあおきいろのおにずあんどもあ",
+    "cn": "红黄色的鬼 and more",
+    "interlude": false
+  },
+  {
+    "time": 11860,
+    "text": "はいびびっとしゃとるーずぐりーんおに",
+    "cn": "High vivid chartreuse green 的鬼",
+    "interlude": false
+  },
+  {
+    "time": 14560,
+    "text": "せくしーみでぃあむばいおれっとおに",
+    "cn": "Sexy medium violet 的鬼",
+    "interlude": false
+  },
+  {
+    "time": 17200,
+    "text": "むらさきだいだいしゃくなげおに",
+    "cn": "紫橙色的杜鹃花的鬼",
+    "interlude": false
+  },
+  {
+    "time": 19870,
+    "text": "らららいえるかなとぅないひゃっきやぎょう",
+    "cn": "啦啦啦、要说出来吗？今晚百鬼夜行哦",
+    "interlude": false
+  },
+  {
+    "time": 22600,
+    "text": "はいてんしょんじゃぱにーずごぶりん",
+    "cn": "High tension Japenses Goblin",
+    "interlude": false
+  },
+  {
+    "time": 25160,
+    "text": "どらんくはっぴーどんどんへべれけ",
+    "cn": "Drink happy 慢慢地醺醉",
+    "interlude": false
+  },
+  {
+    "time": 27880,
+    "text": "あいあむえぇとじゃぱにーずごぶりん",
+    "cn": "I am um... Japenese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 30570,
+    "text": "れつごーつきみだうたえやさわげや",
+    "cn": "Let\u0027s go 赏月 唱歌 胡闹",
+    "interlude": false
+  },
+  {
+    "time": 33210,
+    "text": "ふろしきつつんでしゃるうぃーなんちゃら",
+    "cn": "用布把星星包起来 shall we",
+    "interlude": false
+  },
+  {
+    "time": 35890,
+    "text": "ひともあやかしもしゃくにほしうかべ",
+    "cn": "不管是人还是妖怪我都要让他们看到星星",
+    "interlude": false
+  },
+  {
+    "time": 38560,
+    "text": "くるしゅうないぞくるしゅうないぞ",
+    "cn": "没关系、没关系",
+    "interlude": false
+  },
+  {
+    "time": 41230,
+    "text": "ぶれいくあうとでぶれいこう",
+    "cn": "Break out 不用讲客套",
+    "interlude": false
+  },
+  {
+    "time": 44560,
+    "text": "夕闇がこの場所を包むから",
+    "cn": "夜幕降临于此",
+    "interlude": false
+  },
+  {
+    "time": 47530,
+    "text": "今宵の肴に待ち惚け",
+    "cn": "等待着今晚的酒席",
+    "interlude": false
+  },
+  {
+    "time": 50210,
+    "text": "繰り返すまだかなもういいよ",
+    "cn": "「还没做好吗」「快好了」",
+    "interlude": false
+  },
+  {
+    "time": 52890,
+    "text": "華密恋が空に揺ぐ",
+    "cn": "华密恋在空中摇曳（一种沐浴露）",
+    "interlude": false
+  },
+  {
+    "time": 55210,
+    "text": "人は皆誰しもが非力だと",
+    "cn": "人类都很脆弱",
+    "interlude": false
+  },
+  {
+    "time": 58220,
+    "text": "里に伝わるはカタシハヤ",
+    "cn": "村庄里流传着「百鬼夜行所难处…」",
+    "interlude": false
+  },
+  {
+    "time": 60900,
+    "text": "拳で問うエカセニクリニ",
+    "cn": "用拳头去交流也唱着「…去时香积藏酒厨」（百鬼夜行退散咒文）",
+    "interlude": false
+  },
+  {
+    "time": 63550,
+    "text": "後はもう忘れ物",
+    "cn": "后面的忘了",
+    "interlude": false
+  },
+  {
+    "time": 65870,
+    "text": "いつか見たあの月がまた覗くから",
+    "cn": "终有一日彼时旧月将会重现",
+    "interlude": false
+  },
+  {
+    "time": 68880,
+    "text": "今宵も宴でさて舞い踊れ",
+    "cn": "所以今夜尽情载歌载舞",
+    "interlude": false
+  },
+  {
+    "time": 71530,
+    "text": "きらり光り瞬き消えて",
+    "cn": "闪烁的微光就要消逝",
+    "interlude": false
+  },
+  {
+    "time": 74240,
+    "text": "夜明けはもうすぐそこ",
+    "cn": "黎明将要到来",
+    "interlude": false
+  },
+  {
+    "time": 76520,
+    "text": "夕闇がこの場所を包むから",
+    "cn": "夜幕降临于此",
+    "interlude": false
+  },
+  {
+    "time": 79510,
+    "text": "今宵の肴に待ち惚け",
+    "cn": "等待着今晚的酒席",
+    "interlude": false
+  },
+  {
+    "time": 82170,
+    "text": "繰り返すまだかなもういいよ",
+    "cn": "「还没做好吗」「快好了」",
+    "interlude": false
+  },
+  {
+    "time": 84860,
+    "text": "華密恋が空に揺ぐ",
+    "cn": "华密恋在空中摇曳",
+    "interlude": false
+  },
+  {
+    "time": 87170,
+    "text": "（鬼岛国际峰会就要开始了",
+    "cn": "",
+    "interlude": false
+  },
+  {
+    "time": 88220,
+    "text": "（えーこれより鬼ヶ島国際鬼サミットを開会致します。",
+    "cn": "关于豆腐汉堡包方面的问题",
+    "interlude": false
+  },
+  {
+    "time": 91950,
+    "text": "昨年度多くの負傷者を出し、角がかける程度の被害が",
+    "cn": "由于去年因此产生了许多受害者",
+    "interlude": false
+  },
+  {
+    "time": 95550,
+    "text": "出ている豆腐ハンバーグ問題につきまして",
+    "cn": "甚至有的角都受伤了",
+    "interlude": false
+  },
+  {
+    "time": 97620,
+    "text": "なまはげ委員会主導の下",
+    "cn": "所以生剥鬼节委员会提议",
+    "interlude": false
+  },
+  {
+    "time": 99330,
+    "text": "「大豆　ダメ・絶対」キャンペーンを実施致しまして、",
+    "cn": "「绝对要禁止大豆」",
+    "interlude": false
+  },
+  {
+    "time": 102530,
+    "text": "国民の鬼の皆様が間違えて摂取せぬよう、こちらの",
+    "cn": "为了防止各鬼民误食",
+    "interlude": false
+  },
+  {
+    "time": 105260,
+    "text": "方針にてお知らせしていきたいと考えております）",
+    "cn": "在此特意强调此方针）",
+    "interlude": false
+  },
+  {
+    "time": 108870,
+    "text": "うぃーあーざじゃぱにーずごぶりん",
+    "cn": "We are the Japanese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 111810,
+    "text": "どぅゆぅはぶけいのたかとびおにごろし",
+    "cn": "Do you have 高跳桂马的鬼杀吗",
+    "interlude": false
+  },
+  {
+    "time": 114530,
+    "text": "あいあむえぇとじゃぱにーずごぶりん",
+    "cn": "I am um... Japanese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 117260,
+    "text": "あかあおきいろのおにずあんどもあ",
+    "cn": "红黄色的鬼 and more",
+    "interlude": false
+  },
+  {
+    "time": 119880,
+    "text": "はいびびっとしゃとるーずぐりーんおに",
+    "cn": "High vivid chartreuse green 的鬼",
+    "interlude": false
+  },
+  {
+    "time": 122550,
+    "text": "せくしーみでぃあむばいおれっとおに",
+    "cn": "Sexy medium violet 的鬼",
+    "interlude": false
+  },
+  {
+    "time": 125230,
+    "text": "むらさきだいだいしゃくなげおに",
+    "cn": "紫橙色的杜鹃花的鬼",
+    "interlude": false
+  },
+  {
+    "time": 127890,
+    "text": "らららいえるかなとぅないひゃっきやぎょう",
+    "cn": "啦啦啦、要说出来吗？今晚百鬼夜行哦",
+    "interlude": false
+  },
+  {
+    "time": 130630,
+    "text": "はいてんしょんじゃぱにーずごぶりん",
+    "cn": "High tension Japenses Goblin",
+    "interlude": false
+  },
+  {
+    "time": 133200,
+    "text": "どらんくはっぴーどんどんへべれけ",
+    "cn": "Drink happy 慢慢地醺醉",
+    "interlude": false
+  },
+  {
+    "time": 135880,
+    "text": "あいあむえぇとじゃぱにーずごぶりん",
+    "cn": "I am um... Japenese Goblin",
+    "interlude": false
+  },
+  {
+    "time": 138580,
+    "text": "れつごーつきみだうたえやさわげや",
+    "cn": "Let\u0027s go 赏月 唱歌 胡闹",
+    "interlude": false
+  },
+  {
+    "time": 141230,
+    "text": "ふろしきつつんでしゃるうぃーなんちゃら",
+    "cn": "用布把星星包起来 shall we",
+    "interlude": false
+  },
+  {
+    "time": 143890,
+    "text": "ひともあやかしもしゃくにほしうかべ",
+    "cn": "不管是人还是妖怪我都要让他们看到星星",
+    "interlude": false
+  },
+  {
+    "time": 146630,
+    "text": "くるしゅうないぞくるしゅうないぞ",
+    "cn": "没关系、没关系",
+    "interlude": false
+  },
+  {
+    "time": 149380,
+    "text": "ぶれいくあうとでぶれいこう",
+    "cn": "Break out 不用讲客套",
+    "interlude": false
+  },
+  {
+    "time": 152560,
+    "text": "今日も夜の帳が降りるから",
+    "cn": "今日夜幕照常降临",
+    "interlude": false
+  },
+  {
+    "time": 155550,
+    "text": "今宵の肴に待ち惚け",
+    "cn": "等待着今晚的酒席",
+    "interlude": false
+  },
+  {
+    "time": 158180,
+    "text": "ありふれた夕焼け亜麻色に",
+    "cn": "熟悉的黄昏转为亚麻色",
+    "interlude": false
+  },
+  {
+    "time": 160850,
+    "text": "華密恋が空に揺ぐ",
+    "cn": "华密恋在空中摇曳",
+    "interlude": false
+  },
+  {
+    "time": 163170,
+    "text": "人は皆誰しもが非力だと",
+    "cn": "人类都很脆弱",
+    "interlude": false
+  },
+  {
+    "time": 166210,
+    "text": "里に伝わるはカタシハヤ",
+    "cn": "村庄里流传着「百鬼夜行所难处…」",
+    "interlude": false
+  },
+  {
+    "time": 168830,
+    "text": "拳で問うエカセニクリニ",
+    "cn": "用拳头去交流也唱着「…去时香积藏酒厨」",
+    "interlude": false
+  },
+  {
+    "time": 171530,
+    "text": "後はもう忘れ物",
+    "cn": "后面的忘了",
+    "interlude": false
+  },
+  {
+    "time": 173830,
+    "text": "いつか見たあの月がまた覗くから",
+    "cn": "终有一日彼时旧月将会重现",
+    "interlude": false
+  },
+  {
+    "time": 176770,
+    "text": "今宵も宴でさて舞い踊れ",
+    "cn": "所以今晚尽情载歌载舞",
+    "interlude": false
+  },
+  {
+    "time": 179410,
+    "text": "きらり光り瞬き消えて",
+    "cn": "闪烁的微光就要消逝",
+    "interlude": false
+  },
+  {
+    "time": 182140,
+    "text": "夜明けはもうすぐそこ",
+    "cn": "黎明将要到来",
+    "interlude": false
+  },
+  {
+    "time": 184530,
+    "text": "今日も夜の帳が降りるから",
+    "cn": "今日夜幕照常降临",
+    "interlude": false
+  },
+  {
+    "time": 187550,
+    "text": "今宵の肴に待ち惚け",
+    "cn": "等待着今晚的酒席",
+    "interlude": false
+  },
+  {
+    "time": 190130,
+    "text": "ありふれた夕焼け亜麻色に",
+    "cn": "熟悉的黄昏转为亚麻色",
+    "interlude": false
+  },
+  {
+    "time": 192830,
+    "text": "華密恋が空に揺ぐ",
+    "cn": "华密恋在空中摇曳",
+    "interlude": false
+  },
+  {
+    "time": 217880,
+    "text": "夕闇がこの場所を包むから",
+    "cn": "夜幕降临于此",
+    "interlude": false
+  },
+  {
+    "time": 220830,
+    "text": "今宵の肴に待ち惚け",
+    "cn": "等待着今晚的酒席",
+    "interlude": false
+  },
+  {
+    "time": 223470,
+    "text": "繰り返すまだかなもういいよ",
+    "cn": "「还没做好吗」「快好了」",
+    "interlude": false
+  },
+  {
+    "time": 226160,
+    "text": "華密恋が空に揺ぐ",
+    "cn": "华密恋在空中摇曳",
+    "interlude": false
+  },
+  {
+    "time": 228480,
+    "text": "人は皆誰しもが非力だと",
+    "cn": "人类都很脆弱",
+    "interlude": false
+  },
+  {
+    "time": 231490,
+    "text": "里に伝わるはカタシハヤ",
+    "cn": "村庄里流传着「百鬼夜行所难处…」",
+    "interlude": false
+  },
+  {
+    "time": 234180,
+    "text": "拳で問うエカセニクリニ",
+    "cn": "用拳头去交流也唱着「…去时香积藏酒厨」",
+    "interlude": false
+  },
+  {
+    "time": 236840,
+    "text": "後はもう忘れ物",
+    "cn": "后面的忘了",
+    "interlude": false
+  }
+]

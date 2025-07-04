@@ -8,7 +8,7 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 ## 为Scarlet Sounds添加新曲
 对于添加新曲十分简单, 首先您需要满足以下条件
 1. 为东方Project同人音乐
-2. 在YouTube上有官方MV
+2. 在YouTube上有MV
 3. 上传的专辑图片高清无水印
 4. 正确且完整添加歌曲信息
 5. 使用个人账户进行PR
@@ -16,22 +16,22 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 ### 字段说明  
 歌曲信息位于`src/data/songs.json`中, 每个歌曲信息为一个json对象, 包含以下字段 
 
-| 字段名              | 类型                  | 是否必须 | 示例值                                      | 说明                  |
-|------------------|---------------------|---|------------------------------------------|---------------------|
-| `name`           | `string`            | 是 | `"東方言えるかな"`                              | 歌曲原名                |
-| `circle`         | `string`            | 是 | `"森羅万象"`                                 | 社团名    |
-| `singer`         | `string`            | 是 | `"あやぽんず＊,あよ,すばる"`                        | 演唱者，多个用英文逗号`,`分隔    |
-| `translatedName` | `string`或`null`     | 否 | `"东方能说出来吗"` 或 `null`                     | 中文或其他语言的翻译名         |
-| `length`         | `string`            | 是 | `"7:10"`                                 | 歌曲时长                |
-| `hasLyrics`      | `"Yes"` 或 `"No"`    | 是 | `"Yes"`                                  | 是否附带歌词              |
-| `album`          | `string`或`null`     | 否 | `"東方クロニクル"` 或 `null`                     | 所属专辑名               |
-| `releaseDate`    | `string` (ISO 8601) | 是 | `"2024-10-20T00:00:00.000Z"`             | 发行日期（UTC ISO格式）     |
-| `link`           | `string`            | 是 | `"https://www.youtube.com/watch?v=Baka"` | YouTube官方MV链接       |
-| `desc`           | `string`或`null`     | 否 | `"我是描述字段"` 或 `null`                      | 可选的补充说明             |
-| `staff`          | `string`            | 是 | `"Lyrics A\nIllustration B\nMix C"`      | 作曲人员信息，使用 `\n` 换行表示角色划分 |
+| 字段名              | 类型                  | 是否必须 | 示例值                                      | 说明                            |
+|------------------|---------------------|---|------------------------------------------|-------------------------------|
+| `name`           | `string`            | 是 | `"東方言えるかな"`                              | 歌曲原名                          |
+| `circle`         | `string`            | 是 | `"森羅万象"`                                 | 社团名                           |
+| `singer`         | `string`            | 是 | `"あやぽんず＊,あよ,すばる"`                        | 演唱者，多个用英文逗号`,`分隔              |
+| `translatedName` | `string`或`null`     | 否 | `"东方能说出来吗"` 或 `null`                     | 中文译名                       |
+| `length`         | `string`            | 是 | `"7:10"`                                 | 歌曲时长                          |
+| `hasLyrics`      | `"Yes"` 或 `"No"`    | 是 | `"Yes"`                                  | 是否附带歌词                        |
+| `album`          | `string`或`null`     | 否 | `"東方クロニクル"` 或 `null`                     | 所属专辑名                         |
+| `releaseDate`    | `string` (ISO 8601) | 是 | `"2024-10-20T00:00:00.000Z"`             | 发行日期（UTC ISO格式）               |
+| `link`           | `string`            | 是 | `"https://www.youtube.com/watch?v=Baka"` | MV链接                      |
+| `desc`           | `string`或`null`     | 否 | `"我是描述字段"` 或 `null`                      | 补充说明                          |
+| `staff`          | `string`            | 是 | `"Lyrics A\nIllustration B\nMix C"`      | 作曲人员信息        |
 | `cover`          | `string`            | 是 | `"东方言えるかな.webp"`                         | 封面图片文件名，请放在 `/src/data/covers` 目录下 |
-| `lyrics`         | `string`或`null`     | 否 | `"東方言えるかな.json"` 或 `null`                | 歌词文件名（JSON 格式）      |
-| `lyricsLangs`    | `string[]`          | 否 | `["ja", "cn"]`                           | 若歌词文件为多语言, 则需要填写    |
+| `lyrics`         | `string`或`null`     | 否 | `"東方言えるかな.json"` 或 `null`                | 歌词文件名                |
+| `lyricsLangs`    | `string[]`          | 否 | `["ja", "cn"]`                           | 歌词语言               |
 
 若歌曲社团名在`/src/data/circles.json`中不存在, 请先添加
 

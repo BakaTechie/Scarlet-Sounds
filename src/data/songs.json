@@ -359,5 +359,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "砕月 (ココ&さつき が てんこもり's 作業妨害Remix)",
+        "circle": "Astral Trip",
+        "singer": "ココ",
+        "translatedName": "碎月",
+        "length": "4:04",
+        "hasLyrics": "Yes",
+        "album": "幻想郷ミソギバライ",
+        "releaseDate": "2009-08-15T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=UIp6_0kct_U",
+        "desc": "WE ARE JAPANESE GOBLIN",
+        "staff": "arrangement: さつき が てんこもり\nlyrics: さつき が てんこもり",
+        "cover": "幻想郷ミソギバライ.webp",
+        "lyrics": "砕月 (ココ&さつき が てんこもり's 作業妨害Remix).json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
