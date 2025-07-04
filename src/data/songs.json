@@ -321,5 +321,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "月に叢雲華に風",
+        "artist": "幽閉サテライト",
+        "singer": "senya",
+        "translatedName": "闲云遮月 清风袭花",
+        "length": "4:34",
+        "hasLyrics": "Yes",
+        "album": "月に叢雲華に風",
+        "releaseDate": "2011-12-30T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=skCiZ9IJmZY",
+        "desc": null,
+        "staff": "arrangement: Iceon\nlyrics: かませ虎",
+        "cover": "月に叢雲華に風.webp",
+        "lyrics": "月に叢雲華に風.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
