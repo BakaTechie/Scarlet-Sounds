@@ -378,5 +378,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "フランドール",
+        "circle": "ちょこふぁん",
+        "singer": "すばる",
+        "translatedName": "芙兰朵露",
+        "length": "3:31",
+        "hasLyrics": "Yes",
+        "album": "フランドール",
+        "releaseDate": "2023-06-25T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=SJBPJ4joELg",
+        "desc": null,
+        "staff": "【ボーカル・歌詞・イラスト】すばる (@subachoco)",
+        "cover": "フランドール.webp",
+        "lyrics": "フランドール.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
