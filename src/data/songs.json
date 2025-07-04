@@ -302,5 +302,24 @@
             "ja",
             "cn"
         ]
+    },
+    {
+        "name": "色は匂へど散りぬるを",
+        "artist": "幽閉サテライト",
+        "singer": "senya",
+        "translatedName": "繁花艳丽 终或飘零",
+        "length": "3:40",
+        "hasLyrics": "Yes",
+        "album": "色は匂へど 散りぬるを",
+        "releaseDate": "2010-09-19T00:00:00.000Z",
+        "link": "https://www.youtube.com/watch?v=NpgaGhAW9So",
+        "desc": null,
+        "staff": "arrangement: Iceon\nlyrics: かませ虎",
+        "cover": "色は匂へど 散りぬるを.webp",
+        "lyrics": "色は匂へど 散りぬるを.json",
+        "lyricsLangs": [
+            "ja",
+            "cn"
+        ]
     }
 ]
