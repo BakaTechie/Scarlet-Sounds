@@ -32,7 +32,7 @@ import classNames from 'classnames';
 import './SongListSection.scss';
 import useStateStorage from './hooks/useStateStorage.js';
 import LazyImg from './components/LazyImg.jsx';
-import artistList from './data/artists.json';
+import circleList from './data/circles.json';
 import { usePlayerSettings } from './contexts/PlayerSettingsContext.jsx';
 
 import base64 from 'base-64';
@@ -42,8 +42,7 @@ const songs = getSongsData();
 
 export function SongListSection(props) {
 	const queueManager = useContext(QueueContext);
-
-	const [selectedTypes, setSelectedTypes] = useStateStorage(artistList, 'song-type-filter');
+	const [selectedTypes, setSelectedTypes] = useStateStorage(circleList, 'song-type-filter');
 	const [listStyle, setListStyle] = useStateStorage('grid', 'song-list-style');
 	const [sortCriteria, setSortCriteria] = useStateStorage('date', 'song-sort-criteria');
 	const [sortDirection, setSortDirection] = useStateStorage('asc', 'song-sort-direction');
@@ -53,9 +52,9 @@ export function SongListSection(props) {
 
 	const filteredSongs = songs
 		.filter((song) => {
-			// 如果有搜索关键词，则不使用 artists 类型筛选
+			// 如果有搜索关键词，则不使用 circles 类型筛选
 			if (props?.searchQuery?.trim()) return true;
-			return selectedTypes.map(artist => artist.toLowerCase()).includes(song.artist.toLowerCase());
+			return selectedTypes.map(circle => circle.toLowerCase()).includes(song.circle.toLowerCase());
 		})
 		.filter((song) => !(hideInstrumentals && !song.hasLyrics))
 		.filter((song) => {
@@ -63,7 +62,7 @@ export function SongListSection(props) {
 			const query = props?.searchQuery?.trim().toLowerCase();
 			return (
 				song.name.toLowerCase().includes(query) ||
-				song.artist?.toLowerCase().includes(query) ||
+				song.circle?.toLowerCase().includes(query) ||
 				song.singer?.toLowerCase().includes(query) ||
 				song.translatedName?.toLowerCase().includes(query) ||
 				song.album?.toLowerCase().includes(query)
@@ -104,11 +103,13 @@ export function SongListSection(props) {
 				<div className="list-section-header">
 					<SegmentedButtons
 						className="song-type-filter"
-						buttons={artistList.map(artist => ({
-							label: artist,
-							value: artist,
-							selected: selectedTypes.includes(artist),
-						}))}
+						buttons={circleList
+							.map(circle => ({
+								label: circle,
+								value: circle,
+								selected: selectedTypes.includes(circle),
+							}))
+							.sort((a, b) => a.label.localeCompare(b.label, 'ja'))}
 						multiple={true}
 						setSelected={setSelectedTypes}
 					/>
@@ -371,10 +372,10 @@ function Song(props) {
 				</div>
 				<div className="song-creators">
 					{
-						props.song.artist &&
-						<div className="song-artist">
+						props.song.circle &&
+						<div className="song-circle">
 							<MdDesignServices/>
-							{props.song.artist.split(',').map((x) => x.trim()).join(', ')}
+							{props.song.circle.split(',').map((x) => x.trim()).join(', ')}
 						</div>
 					}
 					{

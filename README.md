@@ -19,7 +19,7 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 | 字段名              | 类型                  | 是否必须 | 示例值                                      | 说明                  |
 |------------------|---------------------|---|------------------------------------------|---------------------|
 | `name`           | `string`            | 是 | `"東方言えるかな"`                              | 歌曲原名                |
-| `artist`         | `string`            | 是 | `"森羅万象"`                                 | 社团名    |
+| `circle`         | `string`            | 是 | `"森羅万象"`                                 | 社团名    |
 | `singer`         | `string`            | 是 | `"あやぽんず＊,あよ,すばる"`                        | 演唱者，多个用英文逗号`,`分隔    |
 | `translatedName` | `string`或`null`     | 否 | `"东方能说出来吗"` 或 `null`                     | 中文或其他语言的翻译名         |
 | `length`         | `string`            | 是 | `"7:10"`                                 | 歌曲时长                |
@@ -33,7 +33,7 @@ Scarlet Sounds是一个在线Project同人音乐播放平台, 基于[mimi-radio]
 | `lyrics`         | `string`或`null`     | 否 | `"東方言えるかな.json"` 或 `null`                | 歌词文件名（JSON 格式）      |
 | `lyricsLangs`    | `string[]`          | 否 | `["ja", "cn"]`                           | 若歌词文件为多语言, 则需要填写    |
 
-若歌曲社团名在`/src/data/artists.json`中不存在, 请先添加
+若歌曲社团名在`/src/data/circles.json`中不存在, 请先添加
 
 ### 歌词说明
 歌词文件位于`src/data/lyrics`目录下, 每个歌词文件为一个json对象, 包含以下字段  

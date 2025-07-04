@@ -37,7 +37,7 @@ export function Controller(props) {
 		if (isPaused) {
 			document.title = "Scarlet Sounds";
 		} else {
-			document.title = `Scarlet Sounds | ${queueManager.currentSong?.name ?? "Scarlet Sounds"} - ${queueManager.currentSong?.artist}`;
+			document.title = `Scarlet Sounds | ${queueManager.currentSong?.name ?? "Scarlet Sounds"} - ${queueManager.currentSong?.circle}`;
 		}
 	}, [queueManager.currentSong, isPaused]);
 
@@ -63,7 +63,7 @@ export function Controller(props) {
 						<div className="song-creators">
 							{
 								[
-									...(queueManager.currentSong?.artist?.split(',') ?? []),
+									...(queueManager.currentSong?.circle?.split(',') ?? []),
 									...(queueManager.currentSong?.singer?.split(',') ?? []),
 								]?.map((x) => x.trim())?.join(', ')
 							}
@@ -343,7 +343,7 @@ function QueueSong(props) {
 				<div className="queue-menu-item-creators">
 					{
 						[
-							...(song.artist?.split(',') ?? []),
+							...(song.circle?.split(',') ?? []),
 							...(song.singer?.split(',') ?? []),
 						]?.map((x) => x.trim())?.join(', ')
 					}

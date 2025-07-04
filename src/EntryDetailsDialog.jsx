@@ -188,7 +188,7 @@ function Meta({meta}) {
 						icon={<MdDesignServices/>}
 						title="Composer"
 					>
-						{meta.artist}
+						{meta.circle}
 					</ListItem>
 					{
 						meta.singer &&
